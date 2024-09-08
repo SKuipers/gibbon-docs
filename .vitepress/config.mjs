@@ -18,7 +18,7 @@ export default defineConfig({
   description: "Free, Flexible, Open Source",
   // tagline: 'fooBar',
   // srcDir: './docs',
-  outDir: '../public',
+  outDir: './deploy',
   assetsDir: 'assets',
   cleanUrls: true,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
