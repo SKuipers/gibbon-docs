@@ -7,10 +7,8 @@ hero:
   text: "Documentation & Guides to Get Started"
   tagline: "The Free, Flexible, Open Source School Software"
   image:
-    # src: /assets/papers.svg
-    # src: /assets/document.png
-    src: /assets/documentation2.svg
-    alt: Gibbon
+    src: /assets/documentation.svg
+    alt: Gibbon Docs
 
   actions:
     - theme: brand

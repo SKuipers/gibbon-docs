@@ -7,8 +7,8 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="0" y1="256" x2="512" y2="256" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#47caff"/>
-      <stop offset="1" stop-color="#bd34fe"/>
+      <stop offset="0" stop-color="#4868b1"/>
+      <stop offset="1" stop-color="#53b9e9"/>
     </linearGradient>
   </defs>
   <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
