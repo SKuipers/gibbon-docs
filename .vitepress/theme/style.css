@@ -138,3 +138,17 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/**
+ * Customizes
+ * -------------------------------------------------------------------------- */
+
+.VPMenuGroup .title {
+  /* padding: 0 18px; */
+  line-height: 28px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  text-transform: uppercase;
+  transition: color .25s;
+}

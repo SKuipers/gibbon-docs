@@ -1,6 +1,6 @@
 ---
 title: "About the Docs"
-order: 110
+order: 500
 contributors: ["skuipers"]
 ---
 

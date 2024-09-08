@@ -7,7 +7,7 @@ hero:
   text: "Documentation & Guides to Get Started"
   tagline: "The Free, Flexible, Open Source School Software"
   image:
-    src: /assets/documentation.svg
+    src: /assets/documentation_2.svg
     alt: Gibbon Docs
 
   actions:
