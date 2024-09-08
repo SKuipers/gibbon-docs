@@ -4,22 +4,45 @@ layout: home
 
 hero:
   name: "Gibbon Docs"
-  text: "Free, Flexible, Open Source"
-  tagline: My great project tagline
+  text: "Documentation & Guides to Get Started"
+  tagline: "The Free, Flexible, Open Source School Software"
+  image:
+    # src: /assets/papers.svg
+    # src: /assets/document.png
+    src: /assets/documentation2.svg
+    alt: Gibbon
+
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Installing Gibbon
+      link: /administrators/getting-started/installing-gibbon
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting Started
+      link: /administrators/getting-started/getting-started-with-gibbon
+    - theme: alt
+      text: Updating
+      link: /administrators/getting-started/updating-gibbon
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 
+      src: assets/github.svg
+    title: Open Source!
+    details: All of our docs are open source, written and maintained by members of the Gibbon community.
+    link: https://github.com/GibbonEdu/docs
+  - icon: 
+      src: assets/markdown.svg
+    title: Written in Markdown
+    details: Markdown is a simple plain-text format that can be authored with any text editor or directly in GitHub.
+    link: https://guides.github.com/features/mastering-markdown/
+  - icon: 
+      src: assets/vitepress.svg
+    title: Built with VitePress
+    details: These docs are built with the awesome open-source static site generator VitePress.
+    link: https://vitepress.dev/
+  - icon: 
+      src: assets/netlify.svg
+    title: Deploys with Netlify
+    details: Each time a change is made, the whole site is automatically deployed via the amazing JAM-stack wizardry of Netlify.
+    link: https://www.netlify.com/
 ---
 
