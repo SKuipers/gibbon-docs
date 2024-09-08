@@ -2,11 +2,13 @@ import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar';
 
 const vitepressSidebarOptions = {
+  useTitleFromFrontmatter: true,
   useTitleFromFileHeading: true,
   capitalizeEachWords: true,
   hyphenToSpace: true,
   collapsed: true,
   collapseDepth: 2,
+  // convertSameNameSubFileToGroupIndexPage: true,
 };
 
 // https://vitepress.dev/reference/site-config
