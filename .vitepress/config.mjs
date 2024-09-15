@@ -8,9 +8,12 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 2,
+    manualSortFileNameByPriority: ['welcome.md', 'administrators', 'developers', 'teachers', 'parents'],
+    frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'exclude',
-    includeFolderIndexFile: true,
+    includeFolderIndexFile: false,
+    keepMarkdownSyntaxFromTitle: true,
     // convertSameNameSubFileToGroupIndexPage: true,
 };
 
@@ -67,14 +70,14 @@ export default defineConfig({
             },
 
             {
-                text: "Gibbon",
+                text: "Support",
                 items: [
-                    { text: "Home", link: "https://gibbonedu.org" },
-                    { text: "About", link: "https://gibbonedu.org/about" },
-                    { text: "Download", link: "https://gibbonedu.org/download" },
-                    { text: "Extend", link: "https://gibbonedu.org/extend" },
-                    { text: "Support", link: "https://gibbonedu.org/support" },
                     { text: "Forums", link: "https://ask.gibbonedu.org" },
+                    { text: "Expert Support", link: "https://gibbonedu.com/" },
+                    { text: "Gibbon Partners", link: "http://localhost:5173/welcome#expert-support" },
+                    { text: "Certification", link: "https://gibbonedu.com/certification.php" },
+                    { text: "Open Source Guide", link: "https://ask.gibbonedu.org/t/guide-to-going-open/8063" },
+                    { text: "Support Page", link: "https://gibbonedu.org/support" },
                 ],
             },
             {

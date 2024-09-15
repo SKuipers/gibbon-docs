@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+order: 0
 
 hero:
   name: "Gibbon Docs"
@@ -25,7 +26,7 @@ features:
   - icon: 
       src: assets/github.svg
     title: Open Source!
-    details: All of our docs are open source, written and maintained by members of the Gibbon community.
+    details: Just like Gibbon, all of our docs are open source, written and maintained by members of the Gibbon community.
     link: https://github.com/GibbonEdu/docs
   - icon: 
       src: assets/markdown.svg
