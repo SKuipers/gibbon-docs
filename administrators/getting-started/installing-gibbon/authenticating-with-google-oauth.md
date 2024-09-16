@@ -6,6 +6,7 @@ tags: []
 order: 20
 contributors: ["rossdotparker"]
 ---
+# Google Integration
 
 If your school uses GSuite (Formerly Google Apps), you can enable single sign on and calendar integration via Gibbon. This process makes use of Google APIs, including OAuth, and allows a user to access Gibbon without a username and password, provided that their listed email address is a Google account to which they have access
 
@@ -13,31 +14,31 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 
 2\. Once logged in you need to create a new project by clicking the ___Create Project___ button:
 
-[![](/wp/2014/02/02-create-project-300x49.png)](/wp/2014/02/02-create-project.png)
+[![](/img/admin/getting-started/02-create-project-300x49.png)](/img/admin/getting-started/02-create-project.png)
 
 3\. In the new project set-up dialog, give your project a name. Click the ___C______reate___ button:
 
-[![](/wp/2014/02/03-project-name-300x134.png)](/wp/2014/02/03-project-name.png)
+[![](/img/admin/getting-started/03-project-name-300x134.png)](/img/admin/getting-started/03-project-name.png)
 
 4.Click on the ___Credentials___ tab:
 
-[![](/wp/2014/02/05-select-credentialstab-300x274.png)](/wp/2014/02/05-select-credentialstab.png)
+[![](/img/admin/getting-started/05-select-credentialstab-300x274.png)](/img/admin/getting-started/05-select-credentialstab.png)
 
 5\. Then click <span style="text-decoration: underline;">**Create** **credentials**</span>:
 
-[![](/wp/2014/02/05-create-credentials-300x158.png)](/wp/2014/02/05-create-credentials.png)
+[![](/img/admin/getting-started/05-create-credentials-300x158.png)](/img/admin/getting-started/05-create-credentials.png)
 
 6\. Click Choose **<span style="text-decoration: underline;">OAuth2 Client ID</span>**:
 
-[![](/wp/2014/02/06-OAuth-ClientID-300x210.png)](/wp/2014/02/06-OAuth-ClientID.png)
+[![](/img/admin/getting-started/06-OAuth-ClientID-300x210.png)](/img/admin/getting-started/06-OAuth-ClientID.png)
 
 7\. If you have not already configured the consent screen, at this point you will be required to do so:
 
-[![](/wp/2014/02/07a-consent-screen-300x107.png)](/wp/2014/02/07a-consent-screen.png)
+[![](/img/admin/getting-started/07a-consent-screen-300x107.png)](/img/admin/getting-started/07a-consent-screen.png)
 
 8\. Fill in the details for the Product Name and click Save.
 
-[![](/wp/2014/02/07b-product-name-300x290.png)](/wp/2014/02/07b-product-name.png)
+[![](/img/admin/getting-started/07b-product-name-300x290.png)](/img/admin/getting-started/07b-product-name.png)
 
 9\. In the new client ID window, do the following:
 
@@ -46,22 +47,22 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 *   Set Authorised Redirect URI to http://www.your-gibbon-install/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
 *   Click create client ID:
 
-[![](/wp/2014/02/07c-create-client-id-274x300.png)](/wp/2014/02/07c-create-client-id.png)
+[![](/img/admin/getting-started/07c-create-client-id-274x300.png)](/img/admin/getting-started/07c-create-client-id.png)
 
-10\. After this is complete, the client id details will be given to you: [![](/wp/2014/02/07d-client-id-details-300x140.png)](/wp/2014/02/07d-client-id-details.png) (Save the client ID and client secret for step 14.)
+10\. After this is complete, the client id details will be given to you: [![](/img/admin/getting-started/07d-client-id-details-300x140.png)](/img/admin/getting-started/07d-client-id-details.png) (Save the client ID and client secret for step 14.)
 
-11\. Create an API key: [![](/wp/2014/02/08a-API-key-300x268.png)](/wp/2014/02/08a-API-key.png)
+11\. Create an API key: [![](/img/admin/getting-started/08a-API-key-300x268.png)](/img/admin/getting-started/08a-API-key.png)
 
-12\. Save the API Key for step 14: [![](/wp/2014/02/08b-API-key-created-300x158.png)](/wp/2014/02/08b-API-key-created.png)
+12\. Save the API Key for step 14: [![](/img/admin/getting-started/08b-API-key-created-300x158.png)](/img/admin/getting-started/08b-API-key-created.png)
 
-13\. Leave the Key Restriction blank: [![](/wp/2014/02/10-key-restriction-300x281.png)](/wp/2014/02/10-key-restriction.png)
+13\. Leave the Key Restriction blank: [![](/img/admin/getting-started/10-key-restriction-300x281.png)](/img/admin/getting-started/10-key-restriction.png)
 
 14\. Everything is now set up on the Google side, so you can enter your details into Gibbon by going to ___Home___ > ___System Admin___ > **<span style="text-decoration: underline;">Third Party Settings</span>**. The details you need to enter into are as follows.
 
 *   Google Developers Client Name
 *   Google Developers Redirect URI (See step 9 above)
 
-[![](/wp/2014/02/11a-Authentication-Gibbon-300x181.png)](/wp/2014/02/11a-Authentication-Gibbon.png) Use details from steps 7-8 or click on the Credentials tab: For the following use: Google Developers Client ID = Yellow Google Developers Client Secret = Red Google Developers Client Name = Blue Google Developers Redirect Url = Green [![](/wp/2014/02/11b-Client-id-285x300.png)](/wp/2014/02/11b-Client-id.png) API Key: [![](/wp/2014/02/11c-API-key-300x119.png)](/wp/2014/02/11c-API-key.png)
+[![](/img/admin/getting-started/11a-Authentication-Gibbon-300x181.png)](/img/admin/getting-started/11a-Authentication-Gibbon.png) Use details from steps 7-8 or click on the Credentials tab: For the following use: Google Developers Client ID = Yellow Google Developers Client Secret = Red Google Developers Client Name = Blue Google Developers Redirect Url = Green [![](/img/admin/getting-started/11b-Client-id-285x300.png)](/img/admin/getting-started/11b-Client-id.png) API Key: [![](/img/admin/getting-started/11c-API-key-300x119.png)](/img/admin/getting-started/11c-API-key.png)
 
 15\. Gibbon requires a single Google API, the Calendar API, which can be turned on via the Google Developer Console.
 

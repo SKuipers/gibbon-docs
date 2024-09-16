@@ -4,17 +4,18 @@ import { generateSidebar } from "vitepress-sidebar";
 const vitepressSidebarOptions = {
     useTitleFromFrontmatter: true,
     useTitleFromFileHeading: true,
+    useFolderTitleFromIndexFile: true,
     capitalizeEachWords: true,
     hyphenToSpace: true,
     collapsed: true,
-    collapseDepth: 2,
+    collapseDepth: 1,
     manualSortFileNameByPriority: ['welcome.md', 'administrators', 'developers', 'teachers', 'parents'],
-    frontmatterOrderDefaultValue: 9,
+    frontmatterOrderDefaultValue: 9, 
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'exclude',
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
-    // convertSameNameSubFileToGroupIndexPage: true,
+    convertSameNameSubFileToGroupIndexPage: false,
 };
 
 // https://vitepress.dev/reference/site-config

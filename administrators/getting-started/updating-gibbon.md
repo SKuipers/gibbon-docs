@@ -6,6 +6,8 @@ order: 50
 contributors: ["rossdotparker", "fvlasie"]
 ---
 
+# Updating Gibbon
+
 ## Core Updates
 
 1.  The system will alert you of new updates to the core, when you visit System Admin.

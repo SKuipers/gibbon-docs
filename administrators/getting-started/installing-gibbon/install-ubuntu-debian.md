@@ -1,12 +1,13 @@
 ---
-title: "Installing Gibbon on Ubuntu/Debian"
-linktitle: "Installing on Ubuntu/Debian"
+title: "Installing on Ubuntu/Debian"
 short: "Installation"
 categories: ["support"]
 tags: []
 order: 10
 contributors: ["jimbo8098"]
 ---
+
+# Installing on Ubuntu/Debian
 
 ## Foreword
 An installation of Pop!_OS was used to write this documentation, however, installation will be the same on most popular versions. Bear in mind that this guide will refer to the generic pacakages for each requirement. This will generally be fine as popular Linux distros such as Ubuntu and Debian will ship with stable versions of these packages, however it does help to be aware of the implications of this.

@@ -106,8 +106,6 @@
   --vp-home-hero-image-filter: blur(44px);
 }
 
-// linear-gradient(to left top, #44226d, #7c359b, #9e53db, #a97edd)
-
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
@@ -140,7 +138,7 @@
 }
 
 /**
- * Customizes
+ * Customized
  * -------------------------------------------------------------------------- */
 
 .VPMenuGroup .title {
@@ -152,3 +150,19 @@
   text-transform: uppercase;
   transition: color .25s;
 }
+
+.vp-doc [class*="language-"] code {
+    text-wrap-mode: wrap;
+}
+
+
+.vp-doc [class*="language-sh"] {
+    --vp-code-block-bg: #161618;
+    --vp-code-block-color: #ffffff;
+    --vp-code-block-divider-color: #000000;
+}
+
+.vp-doc [class*="language-sh"] .vp-code span {
+    --shiki-light: #ffffff !important;
+}
+
