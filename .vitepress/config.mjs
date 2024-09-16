@@ -46,7 +46,7 @@ export default defineConfig({
                     {
                         text: "Introduction",
                         items: [
-                            { text: "Installing Gibbon", link: "/administrators/getting-started/installing-gibbon" },
+                            { text: "Installing Gibbon", link: "/administrators/getting-started/installing-gibbon/installing-gibbon" },
                             { text: "Getting Started", link: "/administrators/getting-started/getting-started-with-gibbon" },
                             { text: "Updating Gibbon", link: "/administrators/getting-started/updating-gibbon" },
                         ],

@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: Installing Gibbon
-      link: /administrators/getting-started/installing-gibbon
+      link: /administrators/getting-started/installing-gibbon/installing-gibbon
     - theme: alt
       text: Getting Started
       link: /administrators/getting-started/getting-started-with-gibbon

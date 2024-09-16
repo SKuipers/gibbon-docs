@@ -40,4 +40,8 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 
 ## Email
 
-For additional support, comments and questions, please email [support@gibbonedu.org](mailto:support@gibbonedu.org). _Please note that this email address is staffed by volunteers. Responses may not be immediate. Try not to abuse this address, and make use of the channels above first._
+For additional support, comments and questions, please email [support@gibbonedu.org](mailto:support@gibbonedu.org). 
+
+::: tip Important Note
+_Please note that this email address is staffed by volunteers. Responses may not be immediate. Try not to abuse this address, and make use of the channels above first._
+:::
