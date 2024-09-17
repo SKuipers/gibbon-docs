@@ -7,7 +7,9 @@ order: 20
 Gibbon is web-based software written in PHP, CSS and JavaScript using a MySQL database. As such, it needs to be installed and hosted on a web server.
 
 ::: tip Important Note
-Before getting started, it's important to understand that Gibbon is self-hosted open-source software which you can download and install on a server. This gives you the freedom and flexibility to choose how and where to host your server. It also means that **all of your private school data belongs to you** on your own server, which no one else has access to. 
+Before getting started, it's important to understand that Gibbon is self-hosted open-source software which you can download and install on a server. This gives you the freedom and flexibility to choose how and where to host your server. 
+
+It also means that **all of your private school data belongs to you** on your own server, which no one else has access to. For this reason, Gibbon does not use the Software as a Service (SaaS) model.
 :::
 
 ## What You'll Need
