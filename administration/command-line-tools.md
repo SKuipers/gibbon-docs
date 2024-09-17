@@ -9,15 +9,29 @@ contributors:
 ---
 # Command Line Tools
 
-Gibbon features command line tools that allow you to automate certain tasks using cron, including the following:
+Gibbon features command line tools that allow you to automate certain tasks using the cron scheduler on your server.
 
-### Weekly Parent Email Summary of Homework & Behaviour
+## Using Cron
 
-This script generates emails to contact priority 1 parents of each student, outlining their homework deadlines and giving a behaviour summary for the last week. It can be set to run on any day, but is best run after school on the last day of the week (e.g. Friday afternoon for many schools). Parents can use a link in the email to confirm that they have received and read the email. Form tutors can use a report (still being developed) to show which parents have read the reports for a given week. To run this script, run the following commands, or put them within cron on a *nix machine:
+The cron utility is a job scheduler on Unix-like operating systems. It is generally accessed via the command line with a command such as:
 
-    cd [absolutePath]/cli php planner_parentWeeklyEmailSummary.php
+``` sh
+crontab -e
+```
 
-### User Management
+From here, you can edit your cron file, which includes a schedule of commands to run as specific times. Cron is different on different nix systems, but the following should generally get the User Management script above to run at 1am each day:
+
+`0 1 * * * cd /var/www/gibbon/cli/ ; php userAdmin_statusCheckAndFix.php`
+
+You can also execute any CLI script manually on the command line, eg:
+
+``` sh
+php userAdmin_statusCheckAndFix.php
+```
+
+The following are some of the scripts available in the CLI directory:
+
+## User Management
 
 This script:
 
@@ -27,28 +41,29 @@ This script:
 
 To run this script, run the following commands, or put them within cron on a *nix machine:
 
-    cd [absolutePath]/cli php userAdmin_statusCheckAndFix.php
+`cd [absolutePath]/cli php userAdmin_statusCheckAndFix.php`
 
-### Incomplete Attendance Email
+## Weekly Parent Email Summary of Homework & Behaviour
+
+This script generates emails to contact priority 1 parents of each student, outlining their homework deadlines and giving a behaviour summary for the last week. It can be set to run on any day, but is best run after school on the last day of the week (e.g. Friday afternoon for many schools). Parents can use a link in the email to confirm that they have received and read the email. Form tutors can use a report (still being developed) to show which parents have read the reports for a given week. To run this script, run the following commands, or put them within cron on a *nix machine:
+
+`cd [absolutePath]/cli php planner_parentWeeklyEmailSummary.php`
+
+## Incomplete Attendance Email
 
 This script checks attendance taking for the current day, and emails those tutors who have not taken attendance. The report is also sent to the system administrator. To run this script, run the following commands, or put them within cron on a *nix machine:
 
-    cd [absolutePath]/cli php attendance_dailyIncompleteEmail.php
+`cd [absolutePath]/cli php attendance_dailyIncompleteEmail.php`
 
-### Behaviour Letters
+## Behaviour Letters
 
 This script works to automatically send letters to parents of children who have reached certain threshold levels of negative behaviour. The script uses a variety of settings, which can be accessed via __<u>Admin</u>__ > __<u>School Admin</u>__ in the main menu and then __<u>Manage Behaviour Settings</u>__ in the module menu. To run this script, run the following commands, or put them within cron on a *nix machine:
 
-    cd [absolutePath]/cli php behaviour_letters.php
+`cd [absolutePath]/cli php behaviour_letters.php`
 
-### Overdue Library Loan Items
+## Overdue Library Loan Items
 
 This script works to automatically notify the person responsible for each overdue loan item in the Library. To run this script, run the following commands, or put them within cron on a *nix machine:
 
-    cd [absolutePath]/cli php library_overdueNotification.php
+`cd [absolutePath]/cli php library_overdueNotification.php`
 
-### Using Cron
-
-Cron is different on different *nix systems, but the following should generally get the User Management script above to run at 1am each day:
-
-    0 1 * * * cd /var/www/gibbon/cli/ ; php userAdmin_statusCheckAndFix.php

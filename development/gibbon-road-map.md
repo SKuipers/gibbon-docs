@@ -1,21 +1,21 @@
 ---
-title: "Gibbon Road Map"
-categories: ["support"]
-tags: []
-order: 10
-contributors: ["rossdotparker","skuipers"]
+title: Gibbon Road Map
+categories:
+  - support
+tags: 
+order: 5
+contributors:
+  - rossdotparker
+  - skuipers
 ---
+# Gibbon Road Map
 
 Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/categories/feature-requests).
 
-
-*   __v26.0.00__ (aka Joss House Bay)
-    *   String Freeze - October 20th 2023
-    *   Release - November 20th 2023
 *   __v27.0.00__ (aka Kadoorie Farm)
     *   String Freeze - April 20th 2024
     *   Release - May 20th 2024
-*   __v28.0.00__ (TBD)
+*   __v28.0.00__ (aka Lam Tsuen)
     *   String Freeze - October 20th 2024
     *   Release - November 20th 2024
  

@@ -10,7 +10,7 @@ Once your installation is up and running, there are several actions that often h
 The following are recommended actions and tools that can help keep Gibbon in good working order:
 - Establish a clear [Backup Plan](<backing-up-your-system.md>) for both your file system and your database.
 - Setup [Command Line Tools](<command-line-tools.md>) to update data and schedule notifications automatically.
-- Plan for regular [Server Maintenance](<server-maintenance.md>) to update your operating system and server software.
+- Plan for regular [Server Maintenance](<server-maintenance.md>) to keep your server software up-to-date.
 
 ## One School Year to the Next
 
