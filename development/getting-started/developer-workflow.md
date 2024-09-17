@@ -9,11 +9,11 @@ contributors: ["skuipers"]
 
 
 1. Fork the [GibbonEdu/core](https://github.com/GibbonEdu/core) repository on GitHub and [clone a copy](https://help.github.com/articles/cloning-a-repository/) on your local machine.
-2. If you're running [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/), run the `composer install --no-dev` command to install all required libraries in your vendor folder.
-3. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
-4. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
-5. Be sure you're submitting your pull request to the development branch _(and not master)_.
-6. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/main/CHANGELOG.txt) noting what was added, changed or fixed.
+2. If you're running [cutting edge code](/introduction/installing-gibbon/cutting-edge-code/), run the `composer install --no-dev` command to install all required libraries in your vendor folder.
+4. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
+5. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
+6. Be sure you're submitting your pull request to the development branch _(and not master)_.
+7. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/main/CHANGELOG.txt) noting what was added, changed or fixed.
 
 If you're unsure where to begin with GitHub feel free to reach out on the [Support forum](https://ask.gibbonedu.org) or check out these great guides: [makeapullrequest.com](http://makeapullrequest.com/) and [opensource.guide](https://opensource.guide/how-to-contribute/)
 

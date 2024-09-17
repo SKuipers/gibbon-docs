@@ -1,5 +1,5 @@
 ---
-title: "General"
+title: "Admin"
 order: 10
 ---
 

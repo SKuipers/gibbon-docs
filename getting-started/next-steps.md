@@ -1,17 +1,23 @@
 ---
-title: "Getting Started With Gibbon"
-linktitle: "Getting Started"
-categories: ["support"]
-tags: ["getting started", "video"]
+title: Next Steps with Gibbon
+linktitle: Getting Started
+categories:
+  - support
+tags:
+  - getting
+  - started
+  - video
 order: 20
-contributors: ["rossdotparker"]
+contributors:
+  - rossdotparker
 ---
 
-# Getting Started With Gibbon
+# Next Steps with Gibbon
 
 Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. The video below gives an overview of the initial setup of Gibbon, with the following text going into more detail:
 
-<!-- <div style="width: 100%; text-align: center; margin-bottom: 20px;"><iframe src="https://www.youtube.com/embed/OumWAg97ea4" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe></div> -->
+<!-- Training Day Video -->
+<iframe src="https://www.youtube.com/embed/OumWAg97ea4" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
 
 ### Additional Videos
 
@@ -70,4 +76,4 @@ Most users of Gibbon will fit into three main categories: staff, students, and p
 
 ## Timetable
 
-Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](timetabling.md) section.
+Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](<school-setup/timetabling.md>) section.

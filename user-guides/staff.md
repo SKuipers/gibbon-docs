@@ -1,6 +1,14 @@
-# Staff Directory
+---
+title: Staff
+order: 20
+---
+# Staff
 
-The Staff module allows you to get a clear and detailed overview of every member of staff in your school system. The main page, Staff Directory, gives a full list of every teacher and all support staff, their staff type, and their job title and roll group if applicable. This can also be viewed as a grid with photos, or in a card view that also shows staff email addresses. You can filter this view to show only teaching or only support staff, and search for preferred names, surnames or usernames.
+The Staff module allows you to get a clear and detailed overview of every member of staff in your school system. 
+
+## Staff Directory
+
+The main page, Staff Directory, gives a full list of every teacher and all support staff, their staff type, and their job title and roll group if applicable. This can also be viewed as a grid with photos, or in a card view that also shows staff email addresses. You can filter this view to show only teaching or only support staff, and search for preferred names, surnames or usernames.
 
 ![Staff Directory top menu](/img/administrators/staff_directory.png)
 

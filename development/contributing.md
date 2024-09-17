@@ -4,6 +4,7 @@ description: = ""
 order: 40
 contributors: ["skuipers"]
 ---
+# Contributing 
 
 Looking to contribute to Gibbon? Awesome, you're in the right place. Gibbon is a [work of volunteer labour](https://gibbonedu.org/about/), built with love and passion by people just like you.
 

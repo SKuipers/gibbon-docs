@@ -1,10 +1,11 @@
 ---
-title: "Installing Xampp"
-linktitle: "Installing Xampp"
-categories: ["support"]
-tags: []
-order: 30
-contributors: ["rossdotparker"]
+title: Install XAMPP
+categories:
+  - support
+tags: 
+order: 20
+contributors:
+  - rossdotparker
 ---
 
 # Install Xampp for Testing on Windows

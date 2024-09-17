@@ -1,4 +1,10 @@
-# Student Profile
+---
+title: Students
+order: 30
+---
+# Students
+
+## Student Profile
 
 The student profile is a key component of Gibbon, as it gives administrators and teachers full access to all the necessary information about an individual student. As well as this, students are able to view their own profiles, and parents can view the profiles of their children. Other users may see a brief or full version of any profile, depending on the permissions set in Manage Permissions.
 
@@ -14,7 +20,7 @@ Below General Information is an overview of all the student's teachers, based on
 
 At the bottom of the main landing page for each student is their timetable, which shows what lessons they have in the current week. You can click on any lesson's name to see further information about it.
 
-![Student timetable](/img/administrators/student_timetable.png)
+![Student timetable](<../img/administrators/student_timetable.png>)
 
 ## Personal
 

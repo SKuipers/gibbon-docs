@@ -1,11 +1,13 @@
 ---
-title: "Rollover"
-categories: ["support"]
-tags: []
-order: 20
-contributors: ["rossdotparker"]
+title: School Year Rollover
+categories:
+  - support
+tags: 
+order: 10
+contributors:
+  - rossdotparker
 ---
-# Rollover
+# School Year Rollover
 
 The Rollover is Gibbon's tool for moving your installation from one school year to another, updating various records in one go.
 

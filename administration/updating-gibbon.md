@@ -1,9 +1,14 @@
 ---
-title: "Updating Gibbon"
-categories: ["support"]
-tags: ["getting started"]
-order: 50
-contributors: ["rossdotparker", "fvlasie"]
+title: Updating Gibbon
+categories:
+  - support
+tags:
+  - getting
+  - started
+order: 20
+contributors:
+  - rossdotparker
+  - fvlasie
 ---
 
 # Updating Gibbon

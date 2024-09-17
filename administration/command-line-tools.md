@@ -1,9 +1,11 @@
 ---
-title: "Command Line Tools"
-categories: ["support"]
-tags: []
-order: 10
-contributors: ["rossdotparker"]
+title: Command Line Tools
+categories:
+  - support
+tags: 
+order: 40
+contributors:
+  - rossdotparker
 ---
 # Command Line Tools
 

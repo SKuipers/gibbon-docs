@@ -14,13 +14,13 @@ hero:
   actions:
     - theme: brand
       text: Introduction
-      link: /introduction/what-is-gibbon
+      link: /introduction/welcome
     - theme: alt
       text: Installing Gibbon
-      link: /administrators/getting-started/installing-gibbon/installing-gibbon
+      link: /introduction/installing-gibbon
     - theme: alt
       text: Getting Started
-      link: /administrators/getting-started/getting-started-with-gibbon
+      link: /getting-started/next-steps
     # - theme: alt
     #   text: Updating
     #   link: /administrators/getting-started/updating-gibbon

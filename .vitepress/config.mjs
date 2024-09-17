@@ -2,17 +2,17 @@ import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 
 const vitepressSidebarOptions = {
-    useTitleFromFrontmatter: true,
     useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     capitalizeEachWords: true,
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'gibbon-lifecycle', 'modules', 'development'],
+    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development'],
     frontmatterOrderDefaultValue: 9, 
     sortMenusByFrontmatterOrder: true,
-    excludeFilesByFrontmatterFieldName: 'exclude',
+    excludeFilesByFrontmatterFieldName: 'draft',
     excludeFolders: ['templates'],
     excludeFiles: ['README.md'],
     includeFolderIndexFile: false,
@@ -50,9 +50,9 @@ export default defineConfig({
                     {
                         text: "Introduction",
                         items: [
-                            { text: "Installing Gibbon", link: "/administrators/getting-started/installing-gibbon/installing-gibbon" },
-                            { text: "Getting Started", link: "/administrators/getting-started/getting-started-with-gibbon" },
-                            { text: "Updating Gibbon", link: "/administrators/getting-started/updating-gibbon" },
+                            { text: "Installing Gibbon", link: "/introduction/installing-gibbon" },
+                            { text: "Getting Started", link: "/getting-started/next-steps" },
+                            { text: "Updating Gibbon", link: "/administration/updating-gibbon" },
                         ],
                     },
                     {

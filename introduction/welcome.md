@@ -6,9 +6,15 @@ contributors:
   - rossdotparker
 ---
 
-# Welcome
+# Welcome to Gibbon
 
-Our docs are open source, written and maintained by members of the Gibbon community. Use the menu on the left to navigate support materials, which are organised by role.
+Our community offers documentation and guides to help get you up and running. Use the menu on the left to navigate the available support materials.
+
+Common questions include:
+- [How to Install Gibbon](<installing-gibbon.md>)
+- [Setting Up a New Installation](<../getting-started/next-steps.md>)
+- [Rolling over to a New School Year](<../modules/admin/rollover.md>)
+- [Updating to a New Version](<../administration/updating-gibbon.md>)
 
 ## Community Help & Issue Reporting
 
@@ -37,7 +43,7 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 
 - [Code of Conduct](https://github.com/GibbonEdu/core/blob/main/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
 
-- [Developer Workflow](developer-workflow.md) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map](/gibbon-road-map.md).
+- [Developer Workflow](<../development/getting-started/developer-workflow.md>) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map](/gibbon-road-map.md).
 
 ## Email
 

@@ -15,7 +15,7 @@ After installing Gibbon please take the following steps to ensure your system ru
  7. Set PHP to allow URLs as files with `allow_url_fopen=On` (otherwise Calendar overlay in TT will not work). 
  8. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
 
-## Securing your Uploads Folder
+## Secure your Uploads Folder
 
 Files uploaded to Gibbon are stored in the uploads folder. It's essential for your school's security to ensure that this folder cannot be browsed and accessed by random people. The steps to do this depend on your server setup. Some instructions for Apache servers is included below.
 
@@ -27,6 +27,9 @@ Files uploaded to Gibbon are stored in the uploads folder. It's essential for yo
 4.  Reload your updated config, on Ubuntu use the command `sudo service apache2 reload`
 5.  Check to see that your /uploads folder returns a 403 Forbidden or 404 Not Found result
 
+## Create a Backup Plan
+
+Now that you have Gibbon installed, it's never too soon to think of your backup procedures. Be sure to visit the [Backing Up Your System](<../administration/backing-up-your-system.md>) page.
 
 ## MySQL Database Privileges
 

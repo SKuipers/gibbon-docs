@@ -1,9 +1,14 @@
 ---
-title: "Parent Dashboard"
-categories: ["support"]
-tags: ["parents", "getting started"]
+title: Parents
+categories:
+  - support
+tags:
+  - parents
+  - getting
+  - started
 order: 40
-contributors: ["rossdotparker"]
+contributors:
+  - rossdotparker
 ---
 
 ### Parent Dashboard

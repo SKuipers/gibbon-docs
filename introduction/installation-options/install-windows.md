@@ -1,9 +1,11 @@
 ---
-title: "Installing on Windows"
-categories: ["support"]
-tags: []
-order: 15
-contributors: ["xjlwi"]
+title: Installing on Windows
+categories:
+  - support
+tags: 
+order: 20
+contributors:
+  - xjlwi
 ---
 
 # Installing on Windows
