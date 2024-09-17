@@ -79,7 +79,7 @@ export default defineConfig({
                 items: [
                     { text: "Forums", link: "https://ask.gibbonedu.org" },
                     { text: "Expert Support", link: "https://gibbonedu.com/" },
-                    { text: "Gibbon Partners", link: "https://gibbonedu.com/#partners" },
+                    { text: "Gibbon Partners", link: "https://gibbonedu.com" },
                     { text: "Certification", link: "https://gibbonedu.com/certification.php" },
                     { text: "Open Source Guide", link: "https://ask.gibbonedu.org/t/guide-to-going-open/8063" },
                     { text: "Support Page", link: "https://gibbonedu.org/support" },

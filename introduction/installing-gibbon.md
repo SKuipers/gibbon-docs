@@ -24,9 +24,9 @@ After download and unzipping:
 1.  Copy all files to your server, choosing either the root directory or a sub-folder within it.
 2.  Navigate your browser to the folder on your server where Gibbon has been located.
 3.  Follow the on-screen instructions in Gibbon's new installer.
-4.  Check out the [Getting Started With Gibbon](<../getting-started/next-steps.md>) page for more information.
+4.  Check out the [Getting Started With Gibbon](<./getting-started/next-steps.md>) page for more information.
 
-_Note: If you want to help test and develop Gibbon, you can select the [Cutting Edge Code](cutting-edge-code.md) option in the installer. This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core). This is not recommended for production environments._
+_Note: If you want to help test and develop Gibbon, you can select the [Cutting Edge Code](installation-options/cutting-edge-code.md) option in the installer. This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core). This is not recommended for production environments._
 
 The video below gives an overview of the installation process:
 

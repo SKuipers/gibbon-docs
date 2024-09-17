@@ -15,7 +15,7 @@ Each reporting cycle can be setup through ___Manage Reporting Cycles___. The sta
 - **Cycle Number**: If there is more than one reporting cycle in a year, you can set the Cycle Number and Total Cycles, which are used by report templates to display progressive and cumulative reporting data.
 
 - **Milestones**: A reporting cycle can have a number of Milestones, which are important dates within the reporting cycle. These can act as reminders for users, and are shown on the My Reporting page as a timeline of events.
-  ![Milestones](<../../../img/reports/Milestones.png>)
+  ![Milestones](</img/reports/Milestones.png>)
 
 
 ## Scopes and Criteria

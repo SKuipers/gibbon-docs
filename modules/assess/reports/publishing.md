@@ -65,12 +65,12 @@ Parents and student access to reports is optional, and can be controlled per rep
 
 Archives control where on your server the report files are stored. You may chose to store different types of reports in different archives, in order to control who has access to them.
 
-- **Path**: The path you supply must be relative to the Gibbon root folder, which is the same as your Base Path defined in ___System Admin > System Settings___. You can use a `/../` at the beginning of your path to save files in a directory *above* your root folder.
+- **Path**: The path you supply must be relative to the Gibbon root folder, which is the same as your Base Path defined in ___System Admin > System Settings___. You can use a `/./` at the beginning of your path to save files in a directory *above* your root folder.
 
 - **Visibility**: Each archive can toggle visibility by role category. This gives administrators a definitive control over who can see and download reports.
 
 - **Importing Reports**: An importer has been included to help migrate archived PDFs from the Reporting module by Andy Statham. This is an experimental feature, and may not work with older versions of the Reporting module. Visit the Import Reports page and select an archive to import into. The page will indicate if it detects reports that can be imported. Reporting data and criteria will ___NOT___ be transferred: only the archived PDFs will be imported. Once successfully imported, the Reporting PDFs should be accessible through the Archive > View by Student page.
 
 ::: danger
-**Security Note**: Report files are generated with an obfuscated filename to help ensure they remain private, however the default  archive path is in the `/uploads` folder, which is web-accessible. To ensure your reports are secure and private, it is **___highly recommended___** to set your archive path to a directory outside your web root. This can often be done by using one or more `/../` in your archive path, and setting up a new directory that is only server-side accessible.
+**Security Note**: Report files are generated with an obfuscated filename to help ensure they remain private, however the default  archive path is in the `/uploads` folder, which is web-accessible. To ensure your reports are secure and private, it is **___highly recommended___** to set your archive path to a directory outside your web root. This can often be done by using one or more `/./` in your archive path, and setting up a new directory that is only server-side accessible.
 :::

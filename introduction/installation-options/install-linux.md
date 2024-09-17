@@ -43,7 +43,7 @@ Check out certbot for automatic LetsEncrypt SSL cert setup and renewal. [https:/
 1. Copy the default configuration from /etc/apache2/sites-available/000-default.conf to /etc/apache2/sites-available/gibbon.local.conf. Symlink /etc/apache2/sites-enabled/gibbon.local.conf to the copied file so it's enabled.
 ```
 cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/gibbon.local.conf
-ln -s ../sites-available/gibbon.local.conf /etc/apache2/sites-enabled/gibbon.local.conf
+ln -s ./sites-available/gibbon.local.conf /etc/apache2/sites-enabled/gibbon.local.conf
 ```
 
 2. Amend the configuration to your taste. In a VirtualHosts environment, change the ServerName and DocumentRoot at least. I used /var/www/gibbon.local/ as my DocumentRoot. If you're not sure what to put there, consult the Apache documentation.
