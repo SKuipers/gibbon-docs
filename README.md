@@ -1,3 +1,3 @@
-This repository holds the back-end Hugo and Markdown files for the Gibbon docs.
+This repository holds the back-end VitePress and Markdown files for the Gibbon docs.
 
-https://docs.gibbonedu.org/
+https://docs.gibbonedu.org

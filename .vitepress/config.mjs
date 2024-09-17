@@ -9,10 +9,12 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'administrators', 'developers', 'teachers', 'parents'],
+    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'gibbon-lifecycle', 'modules', 'development'],
     frontmatterOrderDefaultValue: 9, 
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'exclude',
+    excludeFolders: ['templates'],
+    excludeFiles: ['README.md'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
     convertSameNameSubFileToGroupIndexPage: false,
@@ -32,6 +34,8 @@ export default defineConfig({
 
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
+    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas' ],
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: "Gibbon Docs",
@@ -42,7 +46,7 @@ export default defineConfig({
                 text: "Docs",
                 activeMatch: '/admin',
                 items: [
-                    { text: "Welcome", link: "/welcome" },
+                    { text: "Welcome", link: "/introduction/welcome" },
                     {
                         text: "Introduction",
                         items: [
@@ -116,7 +120,11 @@ export default defineConfig({
             message:
                 "Caught a mistake or want to improve the documentation? You are welcome to contribute! Look for the edit link on each page.",
             copyright:
-                '<br/><div style="font-size: 80%">Copyright © 2010 <a href="https://gibbonedu.org/">Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>',
+                "<br/><div style='font-size: 80%'>Copyright © 2010 <a href='https://gibbonedu.org/'>Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>",
         },
     },
+
+    // rewrites: {
+    //     'administrators/getting-started/installing-gibbon/:file': 'administrators/installing-gibbon/:file'
+    // }
 });
