@@ -58,6 +58,8 @@ flowchart LR
 - **Days are viewed week by week**
   Many areas of Gibbon display a weekly view, such as the timetable, the staff coverage system, and various reports. You can set the timings of the week in  <u>School Admin > Days of the Week</u>.
 
+Here is an example checklist of the various tasks a school admin team might perform throughout the school year and in preparation for a rollover and new school year:
+[Gibbon: Example Checklist for School Year Startup](https://docs.google.com/spreadsheets/d/1Zq3QOvYqFIjxw26R2B1G2CEJ0Vrj5gmbXEdioCJ-XZU/edit?usp=drivesdk)
 
 Users with permission can switch to different school years using the Year Switcher on the dashboard, or by choosing a school year during login. This enables them to access records that are attached to specific school years.
 

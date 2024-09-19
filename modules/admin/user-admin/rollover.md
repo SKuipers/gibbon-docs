@@ -27,3 +27,7 @@ The Rollover is Gibbon's tool for moving your installation from one school year 
 *   In order to have less work to do during the rollover, you can do the following in advance. When you run the rollover, the values set will automatically appear as form group choices for students in Step 5 above.
     *   Form Groups - in the current years' form groups, specify a form group for students to move into in the coming year. You can do this in Admin > School Admin > Manage Form Groups (a.k.a. Manage Roll Groups in US English). If the popup is blank you need to click "Copy All To Next Year".
     *   Individual Students - if form group progression is not so straight forward, you can set individual student form groups by enroling students ahead of time. To do this go to Admin > User Admin > Student Enrolment and use the Next Year link to jump forward a year. Then add enrolment records for the relevant students, setting their form groups.
+
+
+Here is an example checklist of the various tasks a school admin team might perform throughout the school year and in preparation for a rollover and new school year:
+[Gibbon: Example Checklist for School Year Startup](https://docs.google.com/spreadsheets/d/1Zq3QOvYqFIjxw26R2B1G2CEJ0Vrj5gmbXEdioCJ-XZU/edit?usp=drivesdk)

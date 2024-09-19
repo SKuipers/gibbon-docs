@@ -39,9 +39,11 @@ The folks at [opensource.com](https://opensource.com/resources/what-open-source)
 Read more about [what open source is](https://opensource.com/resources/what-open-source), or check out the following video from the folks at Mozilla, creators of the [Firefox](https://www.mozilla.org/en-US/firefox/) web browser:
 
 <ClientOnly>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7c0IrsDsNaw?si=7TxZlsYJrYVjgD1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/7c0IrsDsNaw?si=7TxZlsYJrYVjgD1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </ClientOnly>
+
 [What Is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw "What Is Open Source?")
+
 ### Is it really free?
 
 Yes! Open source is free. But, it’s not _just_ free as in cost.
@@ -76,11 +78,12 @@ Schools can make changes to their own copy of the code, and if they want to, the
 
 For more info, check out the excellent video by The Linux Foundation about how collaborative development works in the world’s largest open source project:
 
-[How Linux is Built (The Linux Foundation, 2012)](https://www.youtube.com/watch?v=yVpbFMhOAwE)
-
-![](https://ask.gibbonedu.org/uploads/default/original/1X/109cdd397b972967dfa2bbe8126ca4b9ab98d28e.jpeg "How Linux is Built")
+<ClientOnly>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/yVpbFMhOAwE?si=CFoDfLBxYxG2zSmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</ClientOnly>
 
 [How Linux is Built](https://www.youtube.com/watch?v=yVpbFMhOAwE "How Linux is Built")
+
 
 ## Evaluate the Platform
 
@@ -101,8 +104,9 @@ These evaluation criteria are based on Urko Masse’s excellent post on [Open So
 
 ---
 
-> ![:bulb:](https://ask.gibbonedu.org/images/emoji/apple/bulb.png?v=12 ":bulb:") You may be planning to use an open source platform, or planning to _consider_ using one. In both cases, this section can help answer the most common questions you might have.
-
+::: tip 
+You may be planning to use an open source platform, or planning to _consider_ using one. In both cases, this section can help answer the most common questions you might have.
+:::
 ## Assess your Needs
 
 When adopting any new system, it pays to take time to assess your needs. A new school platform isn’t just a technological change, it will likely affect the daily workflows of your staff and students, and impact the flow of information and communication in your school.
@@ -140,17 +144,13 @@ Open source offers a number of different value propositions. Understanding these
 Three primary considerations are:
 
 1. **Affordable**
-    
-    Open source software is free, which makes it an attractive and affordable option for schools. There are other costs to consider, such as hosting, but without a recurring licensing fee the overall costs of adopting an open source platform are lower than paid proprietary platforms.
-    
+   Open source software is free, which makes it an attractive and affordable option for schools. There are other costs to consider, such as hosting, but without a recurring licensing fee the overall costs of adopting an open source platform are lower than paid proprietary platforms.
+
 2. **Collaborative**
-    
-    A platform like Gibbon is made by a community of not only developers but also educators. The software was designed by teachers to meet the everyday needs of their schools.
-    
+   A platform like Gibbon is made by a community of not only developers but also educators. The software was designed by teachers to meet the everyday needs of their schools.
+
 3. **Extensible**
-    
-    The option to extend open source is a boon for schools. Many schools have different workflows and different needs, and an out-of-the-box solution may not meet those needs. For Gibbon, this extensibility can take the form of one of the community-made modules available on the [Extend](https://gibbonedu.org/extend/) page, or the option to program new modules and features into the codebase itself.
-    
+   The option to extend open source is a boon for schools. Many schools have different workflows and different needs, and an out-of-the-box solution may not meet those needs. For Gibbon, this extensibility can take the form of one of the community-made modules available on the [Extend](https://gibbonedu.org/extend/) page, or the option to program new modules and features into the codebase itself.
 
 Exploring these value propositions can help you define the exact value that an open source platform may have for your school. Each will likely have a different weight and meaning for different schools.
 
@@ -164,8 +164,10 @@ Your stakeholders can make or break a project. Taking time to find your change a
 
 Finding your change agents is often a matter of how you create and share your vision. On the surface, introducing a new piece of technology might seem like a simple IT decision. However, chances are it’ll affect many different people in many different capacities.
 
-> ![:bulb:](https://ask.gibbonedu.org/images/emoji/apple/bulb.png?v=12 ":bulb:") Your stakeholders may not know or care what open source means. That’s OK. However, if you can, taking the time to communicate what open source can offer them helps create a shared vision for change.
-> 
+::: tip 
+Your stakeholders may not know or care what open source means. That’s OK. However, if you can, taking the time to communicate what open source can offer them helps create a shared vision for change.
+:::
+
 > Many educators see the value in collaboration, and may be keen to know that the system they’re using is made by a community of fellow educators.
 
 Is open source part of your vision for change? If not, its OK. You may have many other reasons for considering a new platform than whether or not it’s open source. On the other hand, if you haven’t considered what your vision for change is yet, then it’s worth looking into what open source means for your school.
@@ -188,22 +190,24 @@ Getting up and running with a new platform—whether its proprietary or open sou
 
 Consider the following phases when you’re planning a timeline:
 
-- **Evaluate**  
-    Test out the platform in a demo install and see what its capable of.
+- **Evaluate**
+  Test out the platform in a demo install and see what its capable of.
 - **Install**  
-    Setup a web server and install the platform.
+  Setup a web server and install the platform.
 - **Configure**  
-    Explore the settings and options to configure the system for your school’s needs.
+  Explore the settings and options to configure the system for your school’s needs.
 - **Import**  
-    If you have existing data, determine what format it is in and who will import or migrate it.
-- **Train**  
-    Key staff members will need to know how the system works before launching.
-- **Launch**  
-    Pick a date. Rollout can also be done in phases for different roles in the system.
-- **Support**  
-    Any users of a new system will need help. Will you create written support material, offer training sessions, or make video tutorials for your users?
+  If you have existing data, determine what format it is in and who will import or migrate it.
+- **Train**
+  Key staff members will need to know how the system works before launching.
+- **Launch**
+  Pick a date. Rollout can also be done in phases for different roles in the system.
+- **Support**
+  Any users of a new system will need help. Will you create written support material, offer training sessions, or make video tutorials for your users?
 
-> ![:spiral_calendar:](https://ask.gibbonedu.org/images/emoji/apple/spiral_calendar.png?v=12 ":spiral_calendar:") For [Gibbon](https://gibbonedu.org/), the average timeline from evaluation to launch is 3 to 5 months. Some schools move quicker and some schools may take the full school year to get ready for rollout. The exact pace will depend on your schools needs and resources.
+::: warning What is a good timeline?
+For [Gibbon](https://gibbonedu.org/), the average timeline from evaluation to launch is 3 to 5 months. Some schools move quicker and some schools may take the full school year to get ready for rollout. The exact pace will depend on your schools needs and resources.
+:::
 
 Are your IT staff able to setup a new web server? How available are your staff to learn a new system? Who will be the primary users of the system once it’s launched, and what kind of support will they need?
 
@@ -211,7 +215,9 @@ Are you migrating from an existing school platform or starting up for the first 
 
 # Support
 
-> ![:bulb:](https://ask.gibbonedu.org/images/emoji/apple/bulb.png?v=12 ":bulb:") Initially, open source can sound like a DIY project: do it yourself, you’re on your own, sink or swim. Luckily, that’s not the case. This section offers info about how open source support works and how to set your school up for success.
+::: tip 
+Initially, open source can sound like a DIY project: do it yourself, you’re on your own, sink or swim. Luckily, that’s not the case. This section offers info about how open source support works and how to set your school up for success.
+:::
 
 ## Explore your Options
 
@@ -222,10 +228,9 @@ Open source support may look a bit different than proprietary support, but it’
 For Gibbon, support is available through [our community forums](http://ask.gibbonedu.org/). Here, you can ask questions as well as help answer questions, and by doing so you’re also building a knowledge base that others can search and find answers on. Gibbon also has [documentation and user guides](http://docs.gibbonedu.org/), which offers more step-by-step help for the most common areas of the system.
 
 In the video below, Clay Shirky offers a great perspective on the value and effectiveness of community support in open source:
-
-[Love, Internet Style. (Shirky, 2007).](https://www.youtube.com/watch?v=Xe1TZaElTAs)
-
-![](https://ask.gibbonedu.org/uploads/default/original/1X/d8c216821a3be975d89b037cc83212716e90d6c2.jpeg "Clay Shirky on Love, Internet Style")
+<ClientOnly>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/Xe1TZaElTAs?si=uJUrGbWJpzIYTNcH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</ClientOnly>
 
 [Clay Shirky on Love, Internet Style](https://www.youtube.com/watch?v=Xe1TZaElTAs "Clay Shirky on Love, Internet Style")
 
