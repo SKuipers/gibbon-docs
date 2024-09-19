@@ -16,8 +16,9 @@ contributors:
 
 Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. The video below gives an overview of the initial setup of Gibbon, with the following text going into more detail:
 
-<!-- Training Day Video -->
-<iframe src="https://www.youtube.com/embed/OumWAg97ea4" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
+<ClientOnly>
+<iframe src="https://www.youtube.com/embed/OumWAg97ea4" allowfullscreen="allowfullscreen" width="660" height="415" frameborder="0"></iframe>
+</ClientOnly>
 
 ### Additional Videos
 
@@ -29,11 +30,11 @@ Integrated into the Gibbon installer, opt to include demo data when you configur
 
 ## System Settings
 
-Before setting up the structure of your school, complete as many of the settings as possible in ___Admin___ > ___System Admin___ > ___System Settings___. This will help ensure that you have access to as much of the system's functionality as possible.
+Before setting up the structure of your school, complete as many of the settings as possible in <u>System Admin > System Settings</u>. This will help ensure that you have access to as much of the system's functionality as possible.
 
 ## School Structure
 
-Use the following options in the main menu under **Admin** > **School Admin** to set up basic structures in your school.
+Use the following options in the main menu under <u>Admin > School Admin</u> to set up basic structures in your school.
 
 ### Years, Days & Times
 
@@ -76,4 +77,4 @@ Most users of Gibbon will fit into three main categories: staff, students, and p
 
 ## Timetable
 
-Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](<school-setup/timetabling.md>) section.
+Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](school-setup/timetabling.md) section.

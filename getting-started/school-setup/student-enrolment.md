@@ -1,4 +1,14 @@
-# Form Groups
+---
+title: Student Enrolment
+order: 20
+draft: false
+---
+# Student Enrolment
+
+
+TODO
+
+## Form Groups
 
 The Form Groups module allows you to browse through the form groups (also known as Roll Groups in US English) in your school. In the main table, you can see the names of any form tutors, what room they are based in, and how many students are in each form group. There is also a View button that takes you to an overview of each individual form group.
 

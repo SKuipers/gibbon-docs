@@ -1,9 +1,12 @@
 ---
-title: "Custom Fields"
-categories: ["support", "customization"]
-tags: []
-order: 10
-contributors: ["rossdotparker"]
+title: Custom Fields
+categories:
+  - support
+  - customization
+tags: 
+order: 30
+contributors:
+  - rossdotparker
 ---
 
 # Custom Fields

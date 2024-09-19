@@ -1,9 +1,11 @@
 ---
-title: "Internationalisation"
-categories: ["support"]
-tags: []
-order: 40
-contributors: ["rossdotparker"]
+title: Languages & Translation
+categories:
+  - support
+tags: 
+order: 30
+contributors:
+  - rossdotparker
 ---
 
 # Multilingual, Internationalisation & Localisation

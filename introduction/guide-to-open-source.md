@@ -90,13 +90,16 @@ For more info, check out the excellent video by The Linux Foundation about how c
 Not all open source projects are created or supported equally. When you’re looking at a platform for the first time, be sure to do some digging and see what you can learn about it.
 
 - **Is it alive?**  
-    An actively maintained webpage is a good first sign. Also check out when the latest version was released. Was it recent? For projects like Gibbon, you can also see the development activity on their [GitHub repository](https://github.com/GibbonEdu/core/pulse).
+  An actively maintained webpage is a good first sign. Also check out when the latest version was released. Was it recent? For projects like Gibbon, you can also see the development activity on their [GitHub repository](https://github.com/GibbonEdu/core).
+
 - **Does it have good documentation?**  
-    [Documentation](https://docs.gibbonedu.org/) is likely to be your first stop for help getting up and running with a new system. Good documentation is clear and searchable, and covers a wide range of the platforms functionality.
+  [Documentation](https://docs.gibbonedu.org/) is likely to be your first stop for help getting up and running with a new system. Good documentation is clear and searchable, and covers a wide range of the platforms functionality.
+
 - **Is there an active and healthy community?**  
-    Beyond documentation, the greatest source of support for open source is [its community](https://ask.gibbonedu.org/). An active community helps each other solve problems and improve the platform. See the [Clay Shirky](https://www.youtube.com/watch?v=Xe1TZaElTAs) video at the end of this guide for a great perspective on open source community.
+  Beyond documentation, the greatest source of support for open source is [its community](https://ask.gibbonedu.org/). An active community helps each other solve problems and improve the platform. See the [Clay Shirky](https://www.youtube.com/watch?v=Xe1TZaElTAs) video at the end of this guide for a great perspective on open source community.
+
 - **Can you learn it?**  
-    Installing a new platform isn’t enough. You and your colleagues will have to learn how it works. Does the platform look user friendly? Are you able to demo the software before you use it? Do you have the time and resources to learn a new platform?
+  Installing a new platform isn’t enough. You and your colleagues will have to learn how it works. Does the platform look user friendly? Are you able to demo the software before you use it? Do you have the time and resources to learn a new platform?
 
 These evaluation criteria are based on Urko Masse’s excellent post on [Open Source in Education](http://urkomasse.blogspot.com/p/foss-in-education.html). Be sure to check it out for more great information and resources.
 
@@ -105,13 +108,18 @@ These evaluation criteria are based on Urko Masse’s excellent post on [Open So
 ---
 
 ::: tip 
-You may be planning to use an open source platform, or planning to _consider_ using one. In both cases, this section can help answer the most common questions you might have.
+You may be planning to use an open source platform, or planning to _consider_ using one. In both cases, this **Plan** section can help answer the most common questions you might have.
 :::
 ## Assess your Needs
 
 When adopting any new system, it pays to take time to assess your needs. A new school platform isn’t just a technological change, it will likely affect the daily workflows of your staff and students, and impact the flow of information and communication in your school.
 
-It can help to take a systems theory approach to visualize your organization as a set of interconnected gears. Before turning the gear to implement the software itself, there are other gears and connections to consider. Is your school ready for this change? Do your staff have the time and resources to see it through? Who are your stakeholders and are they onboard? These considerations are helpful regardless of open source or proprietary platforms, however the answers of who does what and who is affected may be different.
+It can help to take a systems theory approach to visualize your organization as a set of interconnected gears. Before turning the gear to implement the software itself, there are other gears and connections to consider. 
+- Is your school ready for this change? 
+- Do your staff have the time and resources to see it through? 
+- Who are your stakeholders and are they onboard? 
+
+These considerations are helpful regardless of open source or proprietary platforms, however the answers of who does what and who is affected may be different.
 
 The following infographic offers questions that can help get the gears turning when introducing a new technology or software platform:
 
@@ -119,7 +127,11 @@ The following infographic offers questions that can help get the gears turning w
 
 ### Is open source the right choice?
 
-It is perfectly valid to consider whether open source is even the right choice for your school. It’s possible that it’s not. Proprietary platforms generally offer a whole suite of hosting and support as a through-train, starting with the first marketing call and all the way through to training and launch-day. If you’re looking for a turn-key solution where everything is managed externally for your school, then its likely that open source may not be for you.
+It is perfectly valid to consider whether open source is even the right choice for your school. It’s possible that it’s not. Proprietary platforms generally offer a whole suite of hosting and support as a through-train, starting with the first marketing call and all the way through to training and launch-day. 
+
+::: warning NOTE
+If you’re looking for a turn-key solution where everything is managed and handled for your school, then its likely that open source may not be for you. That's okay.
+:::
 
 Open source platforms can offer a lot of the software capabilities as proprietary platforms, but on the organizational side, it’s up to you to setup a plan for implementation and then connect the dots. The freedom that open source offers also means that it doesn’t come with the same scaffolding and structure that paid platforms do. But, that doesn’t mean there isn’t the same capacity for structure: for more information about the support-side of things, keep reading!
 
@@ -127,7 +139,7 @@ Open source platforms can offer a lot of the software capabilities as proprietar
 
 It’s true, open source is made by programmers, but that doesn’t mean you have to be a programmer to use it. Just in the same way, you don’t have to be a mechanic to own a car, but it certainly doesn’t hurt if you’re familiar looking under the hood and making your own tune ups.
 
-It all comes down to capacity and expectations. If you’re willing to accept that the platform will hopefully meet lots of your needs, but doesn’t meet some of them exactly, then you don’t need a programmer to use open source. This is similar to closed source: you’ll need to work around what the software can and cannot do out of the box.
+<u>It all comes down to capacity and expectations</u>. If you’re willing to accept that the platform will hopefully meet lots of your needs, but doesn’t meet some of them exactly, then you don’t need a programmer to use open source. This is similar to closed source: you’ll need to work around what the software can and cannot do out of the box.
 
 However, if you really want the platform to fit like a glove and do exactly what you need, then you may need a programmer. This may be someone in your organization who already has coding skills and is willing to learn a new system, or someone that you hire on a contract basis. Open source simply offers the potential to adapt and change the platform to suit your school’s needs. What you change, and how extensively you invest in those changes, is up to you.
 
@@ -143,13 +155,13 @@ Open source offers a number of different value propositions. Understanding these
 
 Three primary considerations are:
 
-1. **Affordable**
+1. **Affordable**  
    Open source software is free, which makes it an attractive and affordable option for schools. There are other costs to consider, such as hosting, but without a recurring licensing fee the overall costs of adopting an open source platform are lower than paid proprietary platforms.
 
-2. **Collaborative**
+2. **Collaborative**  
    A platform like Gibbon is made by a community of not only developers but also educators. The software was designed by teachers to meet the everyday needs of their schools.
 
-3. **Extensible**
+3. **Extensible**  
    The option to extend open source is a boon for schools. Many schools have different workflows and different needs, and an out-of-the-box solution may not meet those needs. For Gibbon, this extensibility can take the form of one of the community-made modules available on the [Extend](https://gibbonedu.org/extend/) page, or the option to program new modules and features into the codebase itself.
 
 Exploring these value propositions can help you define the exact value that an open source platform may have for your school. Each will likely have a different weight and meaning for different schools.
@@ -178,7 +190,7 @@ One question to ask is:
 
 Open source is more than just a model for software licensing. It also represents a philosophy of collaboration, which the folks at [opensource.com](http://opensource.com) call “[the open source way](https://opensource.com/open-source-way).” Does this model align with your school values? If so, this idea can become part of your vision for change. Ross Parker, the creator of Gibbon, shared the following thoughts:
 
-“If you would rather educators in general and students and parents be given universal access to excellent software that genuinely meets their needs that is build from within the system that is community driven and is not for profit, then maybe open source is of interest to you” (R. Parker, personal communication, July 28, 2020).
+> “If you would rather educators in general and students and parents be given universal access to excellent software that genuinely meets their needs that is build from within the system that is community driven and is not for profit, then maybe open source is of interest to you.”
 
 Choosing to use an open source platform doesn’t mean you too will have to become an open source advocate. You’re always welcome to use the software and not become part of it’s community. However, it’s worth being aware of not only the technical functionality of the software you use, but also the values it was created with.
 
@@ -190,7 +202,7 @@ Getting up and running with a new platform—whether its proprietary or open sou
 
 Consider the following phases when you’re planning a timeline:
 
-- **Evaluate**
+- **Evaluate**  
   Test out the platform in a demo install and see what its capable of.
 - **Install**  
   Setup a web server and install the platform.
@@ -198,11 +210,11 @@ Consider the following phases when you’re planning a timeline:
   Explore the settings and options to configure the system for your school’s needs.
 - **Import**  
   If you have existing data, determine what format it is in and who will import or migrate it.
-- **Train**
+- **Train**  
   Key staff members will need to know how the system works before launching.
-- **Launch**
+- **Launch**  
   Pick a date. Rollout can also be done in phases for different roles in the system.
-- **Support**
+- **Support**  
   Any users of a new system will need help. Will you create written support material, offer training sessions, or make video tutorials for your users?
 
 ::: warning What is a good timeline?
@@ -216,7 +228,7 @@ Are you migrating from an existing school platform or starting up for the first 
 # Support
 
 ::: tip 
-Initially, open source can sound like a DIY project: do it yourself, you’re on your own, sink or swim. Luckily, that’s not the case. This section offers info about how open source support works and how to set your school up for success.
+Initially, open source can sound like a DIY project: do it yourself, you’re on your own, sink or swim. Luckily, that’s not the case. This **Support** section offers info about how open source support works and how to set your school up for success.
 :::
 
 ## Explore your Options
@@ -250,9 +262,11 @@ One of the best ways to do this is to map out the areas of the platform that you
 
 Every school has regular processes that happen throughout the year. This may be admissions season, teacher conferences, billing periods, and rollover from one year to the next. Mapping out each of these recurring tasks and knowing who’s in charge can help provide a solid support system for your users, and make sure nothing gets forgotten about.
 
+::: warning Example Checklist
 Here’s an example of a school year startup spreadsheet created for Gibbon. Each task has a checkbox and reminders of how to complete it, as well as columns to record when and who is going to complete it. Feel free to make a copy and edit this template for your school.
 
 [Gibbon: Example Checklist for School Year Startup](https://docs.google.com/spreadsheets/d/1Zq3QOvYqFIjxw26R2B1G2CEJ0Vrj5gmbXEdioCJ-XZU/edit?usp=drivesdk)
+:::
 
 ---
 

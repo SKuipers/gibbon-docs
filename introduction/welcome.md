@@ -5,17 +5,15 @@ date: 2017-08-15T14:32:00+08:00
 contributors:
   - rossdotparker
 ---
-
 # Welcome to Gibbon
 
 Our community offers documentation and guides to help get you up and running. Use the menu on the left to navigate the available support materials.
 
 Common questions include:
-- [How to Install Gibbon](installing-gibbon.md)
-- [Setting Up a New Installation](<./getting-started/next-steps.md>)
-- [Rolling over to a New School Year](<./modules/admin/rollover.md>)
-- [Updating to a New Version](<./administration/updating-gibbon.md>)
-
+- [How to Install Gibbon](/introduction/installing-gibbon.md)
+- [Setting Up a New School](/getting-started/next-steps.md)
+- [Rolling over to a New School Year](/modules/admin/user-admin/rollover.md)
+- [Updating to a New Version](/administration/updating-gibbon.md)
 
 ## Gibbon Foundation
 

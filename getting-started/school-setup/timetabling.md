@@ -1,9 +1,11 @@
 ---
-title: "Timetabling"
-categories: ["support"]
-tags: []
-order: 10
-contributors: ["rossdotparker"]
+title: Timetabling
+categories:
+  - support
+tags: 
+order: 40
+contributors:
+  - rossdotparker
 ---
 # Timetabling
 

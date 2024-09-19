@@ -1,10 +1,14 @@
 ---
-title: "Importing Data"
+title: Importing Data
 slug: importing-users
-categories: ["support"]
-tags: ["getting started"]
-order: 30
-contributors: ["rossdotparker"]
+categories:
+  - support
+tags:
+  - getting
+  - started
+order: 50
+contributors:
+  - rossdotparker
 ---
 # Importing Data
 
