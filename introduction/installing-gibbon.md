@@ -30,8 +30,9 @@ _Note: If you want to help test and develop Gibbon, you can select the [Cutting 
 
 The video below gives an overview of the installation process:
 
-<!-- Video 1 -->
+<ClientOnly>
 <iframe src="https://www.youtube.com/embed/jTj4KLEB-w8?start=133&end=1179" allowfullscreen="allowfullscreen" width="660" height="400" frameborder="0"></iframe>
+</ClientOnly>
 
 ::: info
 Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) Gibbon via Softaculous.
@@ -45,6 +46,6 @@ Installing from scratch on an Apache server? Check out the [How to Install Gibbo
 
 If you are using a web hosting company that provides Softaculous via CPanel, you can follow the instructions in the video below to install Gibbon:
 
-<!-- Video 2 -->
+<ClientOnly>
 <iframe src="https://www.youtube.com/embed/5tfuT1CjAe8?rel=0" allowfullscreen="allowfullscreen" width="660" height="415" frameborder="0"></iframe>
-
+</ClientOnly>

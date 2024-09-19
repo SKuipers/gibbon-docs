@@ -1,10 +1,8 @@
 ---
-title: Students
+title: Student Profile
 order: 30
 ---
-# Students
-
-## Student Profile
+# Student Profile
 
 The student profile is a key component of Gibbon, as it gives administrators and teachers full access to all the necessary information about an individual student. As well as this, students are able to view their own profiles, and parents can view the profiles of their children. Other users may see a brief or full version of any profile, depending on the permissions set in Manage Permissions.
 

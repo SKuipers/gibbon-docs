@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 const vitepressSidebarOptions = {
     useTitleFromFileHeading: true,
@@ -10,7 +11,7 @@ const vitepressSidebarOptions = {
     collapsed: true,
     collapseDepth: 1,
     manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development'],
-    frontmatterOrderDefaultValue: 9, 
+    frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
     excludeFolders: ['templates'],
@@ -21,7 +22,7 @@ const vitepressSidebarOptions = {
 };
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
     base: "/",
     title: "Gibbon Documentation",
     description: "The Free, Flexible, Open Source School Software",
@@ -34,7 +35,7 @@ export default defineConfig({
 
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
-    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas' ],
+    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas'],
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
@@ -44,7 +45,7 @@ export default defineConfig({
         nav: [
             {
                 text: "Docs",
-                activeMatch: '/admin',
+                activeMatch: '/introduction',
                 items: [
                     { text: "Welcome", link: "/introduction/welcome" },
                     {
@@ -69,6 +70,21 @@ export default defineConfig({
                             { text: "Developers", link: "/developers" },
                             { text: "Teachers", link: "/teachers" },
                             { text: "Parents", link: "/parents" },
+                        ],
+                    },
+                ],
+            },
+
+            {
+                text: "Devs",
+                activeMatch: '/development',
+                items: [
+                    { text: "Gibbon Road Map", link: "/development/gibbon-road-map" },
+                    {
+                        text: "Getting Started",
+                        items: [
+
+                            { text: "Developer Workflow", link: "/development/getting-started/developer-workflow" },
                         ],
                     },
                 ],
@@ -122,6 +138,14 @@ export default defineConfig({
             copyright:
                 "<br/><div style='font-size: 80%'>Copyright © 2010 <a href='https://gibbonedu.org/'>Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>",
         },
+    },
+
+    mermaid: {
+        // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+    },
+    // optionally set additional config for plugin itself with MermaidPluginConfig
+    mermaidPlugin: {
+        class: "mermaid my-class", // set additional css classes for parent container 
     },
 
     // rewrites: {

@@ -19,15 +19,11 @@ On an organizational side, this guide includes sections on needs assessment, cre
 This is a guide for anyone considering an open source platform for their school. Although it has been created for and by the [Gibbon](https://gibbonedu.org) community, it is aimed to be general enough to apply to many different open source contexts.
 :::
 
-This guide is provided under a Creative Commons license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
-
-
 # Discover
 
 ---
 
-> ![:bulb:](https://ask.gibbonedu.org/images/emoji/apple/bulb.png?v=12 ":bulb:") If you’re new to open source or unsure about how it works, this section is for you. It aims to clarify why open source is free and how community-oriented development works.
-
+If you’re new to open source or unsure about how it works, this **Discover** section is for you. It aims to clarify why open source is free and how community-oriented development works.
 ## Ask Questions
 
 The best place to start is with questions. Read here, search the internet, or ask a friend. Many of the myths surrounding open source can be dispelled with some good questions and answers.
@@ -38,16 +34,14 @@ The folks at [opensource.com](https://opensource.com/resources/what-open-source)
 
 > “The term open source refers to something people can modify and share because its design is publicly accessible.”
 
-“The term originated in the context of software development to designate a specific approach to creating computer programs. Today, however, “open source” designates a broader set of values—what we call “[the open source way](https://opensource.com/open-source-way).” Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development” ([opensource.com](http://opensource.com), n.d., para. 2).
+“The term originated in the context of software development to designate a specific approach to creating computer programs. Today, however, “open source” designates a broader set of values—what we call “[the open source way](https://opensource.com/open-source-way).” Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development” ([opensource.com](http://opensource.com)).
 
 Read more about [what open source is](https://opensource.com/resources/what-open-source), or check out the following video from the folks at Mozilla, creators of the [Firefox](https://www.mozilla.org/en-US/firefox/) web browser:
 
-[What Is Open Source? (Mozilla, 2017)](https://www.youtube.com/watch?v=7c0IrsDsNaw)
-
-![](https://ask.gibbonedu.org/uploads/default/original/1X/3a370c9971634fa4de19c11999af827b08901ce7.jpeg "What Is Open Source?")
-
+<ClientOnly>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7c0IrsDsNaw?si=7TxZlsYJrYVjgD1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</ClientOnly>
 [What Is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw "What Is Open Source?")
-
 ### Is it really free?
 
 Yes! Open source is free. But, it’s not _just_ free as in cost.
