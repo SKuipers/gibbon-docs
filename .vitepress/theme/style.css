@@ -148,6 +148,10 @@
     color: var(--vp-c-text-2);
 }
 
+.vp-doc .timeline-dot::before {
+    border-width: 2px;
+}
+
 .vp-doc .timeline-dot:first-of-type {
     margin-top: 2rem;
 }
@@ -165,7 +169,6 @@
 .vp-doc .timeline-dot-title em {
     font-size: 20px;
     font-weight: 300;
-    /* font-style: normal; */
     color: var(--vp-c-text-3);
     padding-left: 6px;
 }
@@ -175,18 +178,19 @@
 }
 
 .timeline-progress + .timeline-dot::before {
-    background-color: #37eb90;
     border-color: #37eb90;
 }
 
 .timeline-planned + .timeline-dot::before {
-    background-color: #46d6ff;
     border-color: #46d6ff;
 }
 
 .timeline-consideration + .timeline-dot::before {
-    background-color: #ffb21b;
     border-color: #ffb21b;
+}
+
+.timeline-not-possible + .timeline-dot::before {
+    border-color: #ea253c;
 }
 
 /**

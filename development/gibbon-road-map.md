@@ -31,25 +31,40 @@ A record of all Gibbon releases since v7.0.00 can be found on the [GitHub Reposi
 
 ## Feature Development
 
-The following is a roadmap of upcoming development plans and goals for the Gibbon core.
+The following is a roadmap of upcoming development plans and goals for the Gibbon core. This includes major features and changes only. Each version also inevitably includes a variety of smaller quality-of-life tweaks and improvements.
+
+<br>
 
 <hr class="timeline-indicator timeline-progress">
 
 ::: timeline In Progress
-- ...
+- **Activities Module**: a visual refresh of the activity pages, including options to browse descriptions and pictures of activities. Also includes new drag-and-drop tools for enrolment and staffing.
+- **Admissions Module**: continued development to add more reporting and statistics, and the ability to handle pre-application and post-application forms.
+- **Library Module**: continued development to improve the bookshelf view for a larger range of library items.
 :::
 
 <hr class="timeline-indicator timeline-planned">
 
 ::: timeline  Planned
-- ...
+- **Events Module**: a new module to enable adding events directly to the timetable without needing an external calendar integration.
+- **Data Audit and Logging**: track changes to important records to see who modified them and when.
+- **Dashboard Visual Refresh**: a new responsive card-based layout for dashboards, with options for users to add or hide cards that are relevant to them.
+- **LDAP Integration**: adds additional authentication options for schools.
 :::
 
 <hr class="timeline-indicator timeline-consideration">
 
-::: timeline Under Consideration
-- ...
+::: timeline Future
+- **API Access**: a REST based API to enable further integrations with apps and tools.
+- **Settings Manager**: a method to search and update settings across the whole system.
 :::
+
+<hr class="timeline-indicator timeline-not-possible">
+
+::: timeline Not Possible
+- **AI Integration**: conflicts with the ethos and values of Gibbon.
+:::
+
 
 ## Looking To The Future
 
