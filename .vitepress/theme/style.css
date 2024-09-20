@@ -3,6 +3,9 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
+@import "styles/options-boxes.css";
+@import "styles/custom-block.css";
+
 /**
  * Colors
  *
@@ -141,12 +144,13 @@
  * Customized
  * -------------------------------------------------------------------------- */
 
- .vp-doc blockquote {
+
+.vp-doc blockquote {
     border-left: 2px solid var(--vp-c-brand-3);
     color: var(--vp-c-brand-1);
     font-weight: 500;
     margin: 2rem 0;
- }
+}
 
 .VPMenuGroup .title {
   line-height: 28px;

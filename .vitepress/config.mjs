@@ -65,15 +65,6 @@ export default withMermaid({
                             { text: "Managing Modules", link: "/modules/modules" },
                         ],
                     },
-                    // {
-                    //     text: "By Role",
-                    //     items: [
-                    //         { text: "Administrators", link: "/administrators" },
-                    //         { text: "Developers", link: "/developers" },
-                    //         { text: "Teachers", link: "/teachers" },
-                    //         { text: "Parents", link: "/parents" },
-                    //     ],
-                    // },
                 ],
             },
 
@@ -152,6 +143,10 @@ export default withMermaid({
             copyright:
                 "<br/><div style='font-size: 80%'>Copyright © 2010 <a href='https://gibbonedu.org/'>Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>",
         },
+    },
+
+    sitemap: {
+        hostname: 'https://docs.gibbonedu.org',
     },
 
     mermaid: {
