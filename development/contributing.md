@@ -1,8 +1,9 @@
 ---
-title: "Contributing"
-description: = ""
-order: 40
-contributors: ["skuipers"]
+title: Contributing
+description: 
+order: 5
+contributors:
+  - skuipers
 ---
 # Contributing 
 

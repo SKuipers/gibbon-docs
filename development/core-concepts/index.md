@@ -1,6 +1,7 @@
 ---
-title: "Core Concepts"
-description: = ""
+title: Core Concepts
+description: 
 order: 20
-contributors: ["skuipers"]
+contributors:
+  - skuipers
 ---

@@ -14,7 +14,7 @@ const vitepressSidebarOptions = {
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
-    excludeFolders: ['templates'],
+    excludeFolders: ['templates', 'deploy'],
     excludeFiles: ['README.md'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
@@ -35,7 +35,7 @@ export default withMermaid({
 
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
-    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas'],
+    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas', '/deploy/**',],
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
@@ -49,29 +49,31 @@ export default withMermaid({
                 items: [
                     { text: "Welcome", link: "/introduction/welcome" },
                     {
-                        text: "Introduction",
+                        text: "New Users",
                         items: [
+                            { text: "System Requirements", link: "/introduction/system-requirements" },
                             { text: "Installing Gibbon", link: "/introduction/installing-gibbon" },
                             { text: "Getting Started", link: "/getting-started/next-steps" },
+                            
+                        ],
+                    },
+                    {
+                        text: "Existing Users",
+                        items: [
+                            { text: "The Gibbon Lifecycle", link: "/administration/gibbon-lifecycle" },
                             { text: "Updating Gibbon", link: "/administration/updating-gibbon" },
+                            { text: "Managing Modules", link: "/modules/modules" },
                         ],
                     },
-                    {
-                        text: "Developers",
-                        items: [
-                            { text: "Developer Workflow", link: "/developers/getting-started/developer-workflow" },
-                            { text: "Gibbon Road Map", link: "/developers/getting-started/gibbon-road-map" },
-                        ],
-                    },
-                    {
-                        text: "By Role",
-                        items: [
-                            { text: "Administrators", link: "/administrators" },
-                            { text: "Developers", link: "/developers" },
-                            { text: "Teachers", link: "/teachers" },
-                            { text: "Parents", link: "/parents" },
-                        ],
-                    },
+                    // {
+                    //     text: "By Role",
+                    //     items: [
+                    //         { text: "Administrators", link: "/administrators" },
+                    //         { text: "Developers", link: "/developers" },
+                    //         { text: "Teachers", link: "/teachers" },
+                    //         { text: "Parents", link: "/parents" },
+                    //     ],
+                    // },
                 ],
             },
 
@@ -79,14 +81,26 @@ export default withMermaid({
                 text: "Devs",
                 activeMatch: '/development',
                 items: [
+                    { text: "Contributing", link: "/development/contributing" },
                     { text: "Gibbon Road Map", link: "/development/gibbon-road-map" },
                     {
                         text: "Getting Started",
                         items: [
 
                             { text: "Developer Workflow", link: "/development/getting-started/developer-workflow" },
+                            { text: "Coding Standards", link: "/development/getting-started/coding-standards" },
+                            { text: "Module Development", link: "/development/getting-started/module-development" },
                         ],
                     },
+                    {
+                        text: "Core Concepts",
+                        items: [
+
+                            { text: "Build Process", link: "/development/core-concepts/build-process" },
+                            { text: "Database Changes", link: "/development/core-concepts/database-changes" },
+                        ],
+                    },
+                    
                 ],
             },
 
@@ -125,7 +139,7 @@ export default withMermaid({
         },
 
         editLink: {
-            pattern: "https://github.com/GibbonEdu/docs/edit/main/:path",
+            pattern: "https://github.com/SKuipers/gibbon-docs/edit/main/:path",
         },
 
         socialLinks: [
@@ -145,7 +159,7 @@ export default withMermaid({
     },
     // optionally set additional config for plugin itself with MermaidPluginConfig
     mermaidPlugin: {
-        class: "mermaid my-class", // set additional css classes for parent container 
+        // class: "mermaid my-class", // set additional css classes for parent container 
     },
 
     // rewrites: {

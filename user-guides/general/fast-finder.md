@@ -5,8 +5,7 @@ tags: []
 order: 30
 contributors: ["rossdotparker"]
 ---
-
-### Introduction
+# Fast Finder
 
 Gibbon's Fast Finder, located in the header bar, allows you to quickly access the following information within the system (depending on your permissions):
 

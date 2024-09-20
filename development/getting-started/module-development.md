@@ -5,8 +5,9 @@ tags: []
 order: 30
 contributors: ["rossdotparker"]
 ---
+# Module Development
 
-If you are interested in developing a module for Gibbon, use the instructions below. Contact [support@gibbonedu.org](mailto:support@gibbonedu.org) if you are stuck.
+If you are interested in developing a module for Gibbon, please use the instructions below. These instructions are a starting point but cannot possibly cover all aspects of Gibbon development, so please feel free to ask in the [Developer section of the forums](https://ask.gibbonedu.org/c/developers/7) or contact [support@gibbonedu.org](mailto:support@gibbonedu.org) if you are stuck.
 
 ## Module Basics
 
@@ -29,7 +30,7 @@ Download or fork the [starter module](https://github.com/GibbonEdu/module-gibbon
 
 ## Module Translation
 
-As of Gibbon v13 (released on January 20th 2016), additional modules are translatable. [v4.5.00 of the Free Learning module](https://github.com/GibbonEdu/module-freeLearning/commit/410f6a7efa4f8a6bb8d96aa0b915a7fc7402f4a8) is available as a model to demonstrate how module translation works (it is not yet translated, but can be). To prepare a module for translation:
+Additional modules are translatable. [v4.5.00 of the Free Learning module](https://github.com/GibbonEdu/module-freeLearning/commit/410f6a7efa4f8a6bb8d96aa0b915a7fc7402f4a8) is available as a model to demonstrate how module translation works (it is not yet translated, but can be). To prepare a module for translation:
 
 *   Add a/i18n folder into the module root, and include sub folders for each language, as follows:
     *   /i18n

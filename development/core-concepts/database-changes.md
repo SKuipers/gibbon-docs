@@ -5,6 +5,7 @@ tags: []
 order: 30
 contributors: ["skuipers"]
 ---
+# Database Changes
 
 Gibbon tracks database migrations through the [CHANGEDB.php](https://github.com/GibbonEdu/core/blob/main/CHANGEDB.php) file. 
 

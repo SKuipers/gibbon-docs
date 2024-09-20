@@ -5,10 +5,7 @@ tags: []
 order: 20
 contributors: ["rossdotparker", "skuipers"]
 ---
-
-## General
-
-1.  Avoid PHP Shortcodes - as of v8.0.00 Gibbon is moving away from `<?` in favour of `<?php`.
+# Coding Standards
 
 ## Security
 

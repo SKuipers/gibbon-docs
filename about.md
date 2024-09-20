@@ -12,10 +12,10 @@ All of our docs are open source, written and maintained by members of the Gibbon
 If you'd like to contribute to the Gibbon docs, you could:
 
 - ###### Edit a Page
-  Look for the Edit Page link in the top right corner of each page. If you spot a typo or would like to help update the docs, feel free to [edit the page](https://help.github.com/articles/editing-files-in-another-user-s-repository/). Each page has a part at the top inside `---`s called front-matter, which contains extra details about the page, and the area below that is the page's body content.
+  Look for the <u>Edit this Page</u> link in the bottom left corner of each page. If you spot a typo or would like to help update the docs, feel free to [edit the page](https://help.github.com/articles/editing-files-in-another-user-s-repository/). Each page has a part at the top inside `---`s called front-matter, which contains extra details about the page, and the area below that is the page's body content.
 
 - ###### Create a New Page
-  An "expand the docs" link can be found at the bottom of each main section page. Type the name of your new content, then click the `New Page` button.
+  Click the <u>Edit this Page</u> link on a page that's in the same section, then use the breadcrumb navigation to go up one level into the folder that page is in. From here, you should see an Add File in the GitHub interface in the top right.
 
 - ###### Submit an Issue
   Feel free to [submit an issue](https://github.com/GibbonEdu/docs/issues) through GitHub if you spot anything that can't be fixed with the options above.

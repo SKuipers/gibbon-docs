@@ -6,7 +6,13 @@ order: 30
 contributors: ["rossdotparker"]
 ---
 
-As of v10.0.00, Gibbon has a new system for system-wide logs. This will allow you to create or replace a log system to keep track of certain events or create reports or statistics using the logs. Any module, or indeed the core itself, can set or get logs using the following system-wide function call:
+# Logs
+
+::: warning Deprecation Warning 
+Please note that the log system is still in use, but will be deprecated in future versions in favour of a more robust logging system, such as Monolog.
+:::
+
+Gibbon has a new system for system-wide logs. This will allow you to create or replace a log system to keep track of certain events or create reports or statistics using the logs. Any module, or indeed the core itself, can set or get logs using the following system-wide function call:
 
 ```php
 setLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $array);

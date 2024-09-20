@@ -1,10 +1,16 @@
 ---
-title: "Notifications"
-categories: ["support"]
-tags: []
+title: Notifications
+categories:
+  - support
+tags: 
 order: 40
-contributors: ["rossdotparker"]
+contributors:
+  - rossdotparker
+draft: true
 ---
+# Notifications
+
+TODO 
 
 As of v8.2.00, Gibbon has a new system for system-wide notifications. This replaces the old-fashioned (and very limited) approach of hard coding notifications into the sidebar. Any module, or indeed the core itself, can set a notification using the following system-wide function call:
 
