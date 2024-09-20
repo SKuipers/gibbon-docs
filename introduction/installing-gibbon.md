@@ -21,7 +21,7 @@ flowchart LR
 
 Visit [Gibbon Download page](https://gibbonedu.org/download/) to download the Gibbon Core. This will always link to the most recent stable release of Gibbon. 
 
-::: info ADVANCED
+::: info Advanced Installation
 Developers may wish to install [Cutting Edge Code](/installation-options/cutting-edge-code.md). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
 :::
 

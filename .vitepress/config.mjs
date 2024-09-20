@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 import { withMermaid } from "vitepress-plugin-mermaid";
+import timeline from "vitepress-markdown-timeline";
 
 const vitepressSidebarOptions = {
     useTitleFromFileHeading: true,
@@ -37,6 +38,12 @@ export default withMermaid({
 
     srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas', '/deploy/**',],
 
+    markdown: {
+        config: (md) => {
+            md.use(timeline);
+        },
+    },
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: "Gibbon Docs",
@@ -54,7 +61,7 @@ export default withMermaid({
                             { text: "System Requirements", link: "/introduction/system-requirements" },
                             { text: "Installing Gibbon", link: "/introduction/installing-gibbon" },
                             { text: "Getting Started", link: "/getting-started/next-steps" },
-                            
+
                         ],
                     },
                     {
@@ -91,7 +98,7 @@ export default withMermaid({
                             { text: "Database Changes", link: "/development/core-concepts/database-changes" },
                         ],
                     },
-                    
+
                 ],
             },
 

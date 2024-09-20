@@ -10,16 +10,46 @@ contributors:
 ---
 # Gibbon Road Map
 
-Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/categories/feature-requests).
+Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/c/feature-requests/12).
 
-*   __v27.0.00__ (aka Kadoorie Farm)
-    *   String Freeze - April 20th 2024
-    *   Release - May 20th 2024
-*   __v28.0.00__ (aka Lam Tsuen)
-    *   String Freeze - October 20th 2024
-    *   Release - November 20th 2024
- 
+::: timeline  v27.0.00 <em>Kadoorie Farm</em>
+- String Freeze: April 20th 2024
+- Release: May 20th 2024
+:::
+
+::: timeline  v27.0.01 <em>Kadoorie Farm (update)</em>
+- Note: Post-release fixes, not a security update
+- Release: June 7th 2024
+:::
+
+::: timeline v28.0.00 <em>Lam Tsuen</em>
+- String Freeze: October 20th 2024
+- Release: November 20th 2024
+:::
+
 A record of all Gibbon releases since v7.0.00 can be found on the [GitHub Repository](https://github.com/GibbonEdu/core/releases).
+
+## Feature Development
+
+The following is a roadmap of upcoming development plans and goals for the Gibbon core.
+
+<hr class="timeline-indicator timeline-progress">
+
+::: timeline In Progress
+- ...
+:::
+
+<hr class="timeline-indicator timeline-planned">
+
+::: timeline  Planned
+- ...
+:::
+
+<hr class="timeline-indicator timeline-consideration">
+
+::: timeline Under Consideration
+- ...
+:::
 
 ## Looking To The Future
 

@@ -41,11 +41,21 @@ The following list contains those companies that we know are offering commercial
 
 We welcome community contribution and aim to ensure Gibbon is an open and friendly environment.
 
-- [Contributor Guide](https://github.com/GibbonEdu/core/blob/main/.github/CONTRIBUTING.md) - Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.
-
-- [Code of Conduct](https://github.com/GibbonEdu/core/blob/main/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
-
-- [Developer Workflow](<./development/getting-started/developer-workflow.md>) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map](/gibbon-road-map.md).
+<div class="vp-box-container">
+  <a class="vp-box" href="/development/contributing">
+    <p class="box-title">Contributor Guide</p>
+    <p class="box-caption">Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.</p>
+  </a>
+  <a class="vp-box" href="/development/getting-started/developer-workflow">
+    <p class="box-title">Developer Workflow</p>
+    <p class="box-caption">If you want to get involved in the development process, check out our workflow and GitHub repository.</p>
+  </a>
+  <a class="vp-box" href="https://github.com/GibbonEdu/core/blob/main/.github/CODE_OF_CONDUCT.md">
+    <p class="box-title">Code of Conduct</p>
+    <p class="box-caption">Our pledge to foster a welcoming community and a positive environment for anyone to participate in.</p>
+  </a>
+  
+</div>
 
 ## Email
 
