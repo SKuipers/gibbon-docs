@@ -8,13 +8,13 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-Expenses require approval before they can be made against a budget. Use the introductions below to make a request against a budget you have access rights to, and you will receive [notifications](modules/general/notifications.md) as your request makes its way through the approval process.
+Expenses require approval before they can be made against a budget. Use the introductions below to make a request against a budget you have access rights to, and you will receive [notifications](/user-guides/general/notifications) as your request makes its way through the approval process.
 
 ### Getting Started
 
 1.  Go to **Other** > **Finance** in the main menu at the top of the page.
 2.  Select **My Expense Requests** in the module menu
-3.  Use the add button ![page_new](/img/teachers/add-button.png?classes=inline) to create a new request, filling in all required fields.
+3.  Use the add button to create a new request, filling in all required fields.
 
 ![Add Expense Request](</img/teachers/making-a-request.png>)
 

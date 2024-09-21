@@ -12,7 +12,7 @@ The Timetable provides teachers with an easy way to find staff and students duri
 
 ### Getting Started
 
-1.  You should see your own timetable on your [home page](././user-guides/general/the-home-page.md).
+1.  You should see your own timetable on your [home page](/user-guides/general/the-home-page).
 2.  To view timetables for staff or students, go to ___Learn___ > ___Timetable___ in the main menu.
 3.  Select or search for the person you are interested in.
 4.  The desired timetable will display on screen:

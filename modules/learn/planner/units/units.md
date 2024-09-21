@@ -6,7 +6,7 @@ order: 50
 contributors: ["rossdotparker"]
 ---
 
-### Introduction
+### Units
 
 **Units** provide a way to group lessons into logical groups, and so help keep curriculum details organised and easy to access. In addition, units can store unit outline information, with the option of school-wide templates to allow for some standards in planning (see screenshot below).
 
@@ -31,5 +31,5 @@ Smarts Blocks are a part of Gibbon's units and are designed to ease the planning
 
 1.  Go to **Learn** > **Planner** in the main menu at the top of the page.
 2.  Select **Manage Units** link in the right-hand side module menu.
-3.  Use the **Add** button ![page_new](/img/teachers/add-button.png?classes=inline) to start creating your first unit.
+3.  Use the **Add** button to start creating your first unit.
 4.  Whilst working on your first unit, decide whether you wish to create a **Smart Unit** or a **Basic Unit**.

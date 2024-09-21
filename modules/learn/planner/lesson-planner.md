@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-**Lesson Planner** allows teachers to create, manage and deliver individual lesson, according to the classes you teach and the details of your timetable (if you have a timetable setup for you). In addition, you can manage lessons created automatically through the use of [Smart Units](/teachers/learn/planner/units/). You can choose whether to make lessons available to students and/or parents, and in doing so use Gibbon as a [virtual learning environment](http://en.wikipedia.org/wiki/Virtual_learning_environment). The image below shows lessons which have been created for a class, organised by date:
+**Lesson Planner** allows teachers to create, manage and deliver individual lesson, according to the classes you teach and the details of your timetable (if you have a timetable setup for you). In addition, you can manage lessons created automatically through the use of [Smart Units](/modules/learn/planner/units/units). You can choose whether to make lessons available to students and/or parents, and in doing so use Gibbon as a [virtual learning environment](http://en.wikipedia.org/wiki/Virtual_learning_environment). The image below shows lessons which have been created for a class, organised by date:
 
 ![Lesson Plans](</img/teachers/lesson-plans.png>)
 
@@ -34,5 +34,5 @@ The Lesson Planner offers the following features:
 
 1.  Go to **Learn** > **Planner** in the main menu at the top of the page.
 2.  Use the **Choose A Date** or **Choose A Class** menus on the right-hand side module menu.
-3.  Use the **Add** button ![page_new](/img/teachers/add-button.png?classes=inline) to start creating your first lesson plan.
-4.  Alternatively, use the link to **Manage Units**, create a [Smart Unit](/teachers/learn/planner/units/), and have your lessons created automatically for you.
+3.  Use the **Add** button to start creating your first lesson plan.
+4.  Alternatively, use the link to **Manage Units**, create a [Smart Unit](modules/learn/planner/units/units.md), and have your lessons created automatically for you.

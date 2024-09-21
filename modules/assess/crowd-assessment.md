@@ -12,7 +12,7 @@ Crowd Assessment is like peer assessment, but bigger. When students submit work 
 
 ### Getting Started
 
-To enable Crowd Assessment, [create a lesson in the Lesson Planner](./learn/planner/lesson-planner.md), and whilst editing, enable the following:
+To enable Crowd Assessment, [create a lesson in the Lesson Planner](/modules/learn/planner/lesson-planner), and whilst editing, enable the following:
 
 *   ___Homework___ - so students know what work to do
 *   ___Online Submissions___ - so students can submit their work into Gibbon

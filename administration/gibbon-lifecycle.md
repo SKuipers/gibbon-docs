@@ -22,7 +22,7 @@ Along side the day-to-day tasks of the school year, the following are recommende
 
 ## One School Year to the Next
 
-The largest unit of time in Gibbon is a **School Year**. Many different types of records are attached to a school year, and are archived when [rolling over to a new school year](<./modules/admin/rollover.md>). 
+The largest unit of time in Gibbon is a **School Year**. Many different types of records are attached to a school year, and are archived when [rolling over to a new school year](/modules/admin/user-admin/rollover.md). 
 
 ::: tip
 A rollover is an essential process that starts a new school year, enrols students, and updates users based on their status. The rollover performs a lot of work that would otherwise need to be done manually.
@@ -68,7 +68,7 @@ Users with permission can switch to different school years using the Year Switch
 
 ## One Version to the Next
 
-We recommend keeping Gibbon up-to-date with the latest version. Generally, a new version of Gibbon is released twice per year, and exact release dates can be found in the [Gibbon Road Map](<./development/gibbon-road-map.md>).
+We recommend keeping Gibbon up-to-date with the latest version. Generally, a new version of Gibbon is released twice per year, and exact release dates can be found in the [Gibbon Road Map](/development/gibbon-road-map.md).
 
 Since new versions of the core often add new features, many schools will choose to update Gibbon between school years or between terms. In this case, we recommend <u>a minimum of one update per year</u>, to ensure you have the latest features and security updates.
 

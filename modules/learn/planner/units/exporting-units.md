@@ -15,5 +15,5 @@ If you are leaving your current school, which uses Gibbon, and wish to take your
 1.  Go to **Learn** > **Planner** in the main menu at the top of the page.
 2.  Use the **Unit Planner** link on the right-hand side module menu to enter the units section.
 3.  Use the **Choose A Course** drop down menu on the right-hand side to select the course in which your unit lives.
-4.  Use the **Export** button ![Export Units 01a](/img/teachers/planner/Export-Units-01a1.png?classes=inline) for the unit you wish to export:
+4.  Use the **Export** button for the unit you wish to export:
 5.  Finally, either use your browser to save the page as HTML (recommended), or copy and paste your work to a document (e.g. Word, Pages, Google Drive).

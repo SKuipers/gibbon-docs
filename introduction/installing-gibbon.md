@@ -22,7 +22,7 @@ flowchart LR
 Visit [Gibbon Download page](https://gibbonedu.org/download/) to download the Gibbon Core. This will always link to the most recent stable release of Gibbon. 
 
 ::: info Advanced Installation
-Developers may wish to install [Cutting Edge Code](/installation-options/cutting-edge-code.md). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
+Developers may wish to install [Cutting Edge Code](/introduction/installation-options/cutting-edge-code). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
 :::
 
 ## Installation
@@ -32,7 +32,7 @@ After download and unzipping:
 1.  Copy all files to your server, choosing either the root directory or a sub-folder within it.
 2.  Navigate your browser to the folder on your server where Gibbon has been located.
 3.  Follow the on-screen instructions in Gibbon's new installer.
-4.  Check out the [Getting Started With Gibbon](<./getting-started/next-steps.md>) page for more information.
+4.  Check out the [Getting Started With Gibbon](/getting-started/next-steps) page for more information.
 
 The video below gives an overview of the installation process:
 

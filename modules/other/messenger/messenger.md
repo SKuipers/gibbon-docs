@@ -17,7 +17,7 @@ The Gibbon Messenger allows you to send out messages, in bulk, to a range of tar
 ### Getting Started
 
 1.  Go to **Other** > **Messenger** in the main menu at the top of the page.
-2.  Use the **Add** button ![page_new](/img/teachers/add-button.png?classes=inline) to start composing a message.
+2.  Use the **Add** button to start composing a message.
 3.  Select the delivery mode(s) that best suit your needs:
 
 ![Messenger Delivery Mode](</img/teachers/message-delivery.png>)

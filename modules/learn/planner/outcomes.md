@@ -23,4 +23,4 @@ contributors: ["rossdotparker"]
 
 1.  Go to **Learn** > **Planner** in the main menu at the top of the page.
 2.  Select **Manage Outcomes** link in the right-hand side module menu.
-3.  Use the **Add** button ![page_new](/img/teachers/add-button.png?classes=inline) to start creating your first outcome.
+3.  Use the **Add** button to start creating your first outcome.
