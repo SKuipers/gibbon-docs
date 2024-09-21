@@ -24,7 +24,7 @@ Setting up a new server, or migrating Gibbon from one server to another, can inv
       * Suggested: Automatic (Gibbon will automatically select the correct encryption type based on the port selected.)
     * SMTP Username: Enter the username for your account.
       * This may be the same as your emails set in Admin > System Settings > Organisation Email, otherwise this account needs to be able to access and send from the organisation email. **If this account is not able to send from your "Organisation Email" listed in Gibbon, you will not be able to send emails from Gibbon.**
-    * Enter a password for the username entered above. **Make sure you're using an [app specific password](/#app-specific-passwords) if you have two-factor authentication (2fA) enabled.**
+    * Enter a password for the username entered above. **Make sure you're using an [](#app-specific-passwords) if you have two-factor authentication (2fA) enabled.**
     * Finally, click submit to save your changes.
     * Use the "Test Email" box to test your new settings!
 

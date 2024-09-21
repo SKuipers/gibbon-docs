@@ -11,8 +11,8 @@ contributors: ["skuipers"]
 The following are some quick instructions for setting up the Microsoft SSO in Gibbon. This documentation is a work in progress, but should help get users started. Please let us know in our forums if you have any questions: [https://ask.gibbonedu.org](https://ask.gibbonedu.org)
 
 1. Begin by logging into your Microsoft account via [Azure Portal](https://portal.azure.com/). If you don't have an account you can set one up, however you may certainly need an enterprise level account from Microsoft if you are looking to enable SSO for your entire organization.
-2. Once logged in, select [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) from the sidebar menu.
-3. Then select [App Registrations](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps) from the list of Manage options in the sidebar.
+2. Once logged in, select [](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) from the sidebar menu.
+3. Then select [](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps) from the list of Manage options in the sidebar.
 4. Click + New Registration and give it a name and select your account type.
 5. For the Redirect URI, this will come from Gibbon.
     - Go into System Admin > Third Party Settings and select the Edit pencil next to the Microsoft SSO option.

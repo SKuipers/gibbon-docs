@@ -49,7 +49,7 @@ Users with __Can Write__ access are able to write reports within their scope. If
 
 If __Can Proof Read__ is enabled, users with this access can view and suggest edits on comments written by other users in the same reporting scope.
 
-![Access](/img/reports/Reporting Access.png)
+![Access](/img/reports/Reporting%20Access.png)
 
 
 ## Rolling Over to a new School Year

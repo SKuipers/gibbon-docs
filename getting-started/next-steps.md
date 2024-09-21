@@ -96,4 +96,4 @@ Most users of Gibbon will fit into three main categories: staff, students, and p
 
 ## Timetable
 
-Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](/school-setup/timetabling) section.
+Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling](/getting-started/school-setup/timetabling) section.
