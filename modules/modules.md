@@ -41,6 +41,6 @@ Additional modules need updated manually when new versions are available. New mo
 
 ## Custom Modules
 
-Schools can also develop their own custom modules to meet their needs. While this is an excellent benefit of Gibbon being open source, it will require some investment on the school's part, often through finding, training or hiring a software developer. Creating a new module required someone who can write and test code through a [development environment](../development/getting-started/developer-workflow.md).
+Schools can also develop their own custom modules to meet their needs. While this is an excellent benefit of Gibbon being open source, it will require some investment on the school's part, often through finding, training or hiring a software developer. Creating a new module required someone who can write and test code through a [development environment](/development/getting-started/developer-workflow).
 
 For more info view our [Module Development page](/development/getting-started/module-development).

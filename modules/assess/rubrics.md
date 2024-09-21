@@ -16,7 +16,7 @@ In order to create a rubric, go to ___Assess___ > ___Rubrics___ and the use the 
 
 ### Using Rubrics
 
-Once a rubric has been defined, it can be used in other areas of the system, such as the [markbook](<markbook.md>) or Formal Assessment modules. The screenshot below shows the process of selecting a rubric within the Markbook edit screen: [![Rubric Selection](/img/teachers/rubrics/Rubric-Selection-1024x224.png)](/img/teachers/rubrics/Rubric-Selection.png)
+Once a rubric has been defined, it can be used in other areas of the system, such as the [markbook](/markbook.md) or Formal Assessment modules. The screenshot below shows the process of selecting a rubric within the Markbook edit screen: [![Rubric Selection](/img/teachers/rubrics/Rubric-Selection-1024x224.png)](/img/teachers/rubrics/Rubric-Selection.png)
 
 Once a rubric has been set, it can be called into action, for example, using the icon below in the Markbook data entry screen: [![Rubric Usage](/img/teachers/rubrics/Rubric-Usage-1024x180.png)](/img/teachers/rubrics/Rubric-Usage.png)
 

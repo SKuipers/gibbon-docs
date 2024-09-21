@@ -16,4 +16,4 @@ Clicking on the Notifications icon (as highlighted above), takes you to the Noti
 
 ### Email Notifications
 
-In order to make notifications more obvious, you can enable email notifications via the [Preferences page](preferences.md)
+In order to make notifications more obvious, you can enable email notifications via the [Preferences page](/preferences)

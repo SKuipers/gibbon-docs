@@ -10,10 +10,10 @@ contributors:
 Our community offers documentation and guides to help get you up and running. Use the menu on the left to navigate the available support materials.
 
 Common questions include:
-- [How to Install Gibbon](/introduction/installing-gibbon.md)
-- [Setting Up a New School](/getting-started/next-steps.md)
-- [Rolling over to a New School Year](/modules/admin/user-admin/rollover.md)
-- [Updating to a New Version](/administration/updating-gibbon.md)
+- [How to Install Gibbon](/introduction/installing-gibbon)
+- [Setting Up a New School](/getting-started/next-steps)
+- [Rolling over to a New School Year](/modules/admin/user-admin/rollover)
+- [Updating to a New Version](/administration/updating-gibbon)
 
 ## Gibbon Foundation
 
