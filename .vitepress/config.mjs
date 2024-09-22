@@ -146,9 +146,9 @@ export default withMermaid({
 
         footer: {
             message:
-                "Caught a mistake or want to improve the documentation? You are welcome to contribute! Look for the edit link on each page.",
+                "Caught a mistake or want to improve the documentation? You are welcome to contribute! Look for the edit link on each page.<br/><br/><div style='font-size: 80%'>Copyright © 2010 <a href='https://gibbonedu.org/'>Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>",
             copyright:
-                "<br/><div style='font-size: 80%'>Copyright © 2010 <a href='https://gibbonedu.org/'>Gibbon Foundation</a> | Gibbon™ of Gibbon Education Ltd. (Hong Kong)<br/>Founded by Ross Parker at ICHK Secondary | Built by Ross Parker, Sandra Kuipers and the Gibbon community</div>",
+                "",
         },
     },
 
