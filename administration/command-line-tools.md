@@ -9,7 +9,7 @@ contributors:
 ---
 # Command Line Tools
 
-Gibbon features command line tools that allow you to automate certain tasks using the cron scheduler on your server.
+Gibbon features command line tools that allow you to automate certain tasks using the cron scheduler on your server. These tools exist as PHP scripts in the `/cli` directory within the root folder of your Gibbon installation.
 
 ## Using Cron
 

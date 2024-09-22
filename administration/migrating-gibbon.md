@@ -14,7 +14,11 @@ Migrating Gibbon from one server to another can involve the following considerat
     *   Edit /config.php to adjust the database settings for your new server.
     *   Upload your files to your new server.
 2.  **Database**
-    *   Download your entire database (e.g. structures, content, auto_increment) to an SQL file.
+    *   Download your entire database (e.g. structures, content, auto_increment) to an SQL file. This can be done with the mysqldump utility via the command line:
+      ``` sh
+      mysqldump -u [username] -p [database_name] > your_backup_file_name.sql
+      ```
+
     *   Use find and replace in a text editor to locate all instances of your system's current URL and update them to the new URL (this will include absoluteURL in the gibbonSettings table).
     *   Locate the absolutePath entry in the gibbonSettings table, and update its value field to contain the location of Gibbon in your new server's file system.
     *   Upload your edited SQL file to your a database on your new server.

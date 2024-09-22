@@ -48,19 +48,19 @@ Read more about [what open source is](https://opensource.com/resources/what-open
 
 Yes! Open source is free. But, it’s not _just_ free as in cost.
 
-In the English language, free can mean both giving something away “for free” (gratis) and providing something “with little or no restriction” (libre) ([“Gratis versus libre,” n.d.](https://en.wikipedia.org/wiki/Gratis_versus_libre)). Free and Open Source Software (FOSS) is both free from a cost perspective, as well as open to amendment and culturally open.
+In the English language, free can mean both giving something away “for free” (gratis) and providing something “with little or no restriction” (libre) ([“Gratis versus libre”](https://en.wikipedia.org/wiki/Gratis_versus_libre)). Free and Open Source Software (FOSS) is both free from a cost perspective, as well as open to amendment and culturally open.
 
 ::: warning Note
 It’s important to note that open source refers to the software itself. Many platforms like Gibbon are web-based applications that require a web server to run. <u>Servers unfortunately are not free</u>. Schools will need to use an in-house server or find a service online that offers web hosting. Luckily, Gibbon itself runs on open source software like PHP and MySQL, which makes it easier for schools to find affordable hosting solutions.
 :::
 
-Along with “for free” (gratis) and "freedom" (libre), a third way to think of open source is **free as in a free puppy**. Someone who adopts a puppy for free will still need to house and care for the puppy. In the same way, while Gibbon is free open source software, you'll still need to host it on a server and administrate it.
+Along with “for free” (gratis) and "freedom" (libre), a third way to think of open source is **free as in "a free puppy"**. Someone who adopts a puppy for free will still need to house and care for the puppy. In the same way, while Gibbon is free open source software, you'll still need to host it on a server and administrate it yourself.
 
 ### Is open source viable?
 
-It’s not uncommon to perceive open source as lower quality or having a shorter longevity than proprietary software. However, this perception stems from one of open source’s greatest strengths: its diversity. Open source includes everything from hobbyist projects, made over a weekend, to [international foundations](https://www.linuxfoundation.org/) that maintain the backbone of the internet. Open source is more prevalent than many people realize. For a broad perspective, check out the Wired article “[In a World Without Open Source.](https://www.wired.com/insights/2013/07/in-a-world-without-open-source/)”
+It’s not uncommon to perceive open source as lower quality or having a shorter longevity than proprietary software. However, this perception stems from one of open source’s greatest strengths: its diversity. Open source includes everything from hobbyist projects, made over a weekend, to [international foundations](https://www.linuxfoundation.org/) that maintain the backbone of the internet. Open source is more prevalent than many people realize. For example, open source software accounts for 86% of web servers worldwide, and open source software contributes over $1 trillion in savings for all technology consumers annually ([Open Source software statistics](https://wifitalents.com/statistic/open-source-software/)).
 
-It’s important to remain critical in your approach to any software platform—proprietary or open source. It pays to do your research and look into the history of the platform you’ll be investing your time in. For some ideas, check out the [evaluation criteria](https://www.notion.so/Guide-to-Going-Open-0caf88a0a4b2441b8dc27a07ae2d4c68) in the section below.
+It’s important to remain critical in your approach to <u>any</u> software platform—proprietary or open source. It pays to do your research and look into the history of the platform you’ll be investing your time in. For some ideas, check out the [evaluation criteria](/introduction/guide-to-open-source#evaluate-the-platform) in the section below.
 
 > If an open source project only has a couple core developers, you might ask: “What happens if something happens to you?”
 
@@ -68,7 +68,7 @@ It’s a common question! Luckily, the answer lies in the open source model: the
 
 ### How is it developed?
 
-Generally, open source projects are created and maintained through a community-oriented development model. This can involve a couple or even thousands of developers—often all around the world—working together on the same codebase. They often do so through collaborative tools that enable them to share and manage their code, such [GitHub](https://github.com) and the [Git](https://git-scm.com/) version control system.
+Generally, open source projects are created and maintained through a community-oriented development model. This can involve a couple people or even thousands of developers—often all around the world—working together on the same codebase. They often do so through collaborative tools that enable them to share and manage their code, such [GitHub](https://github.com) and the [Git](https://git-scm.com/) version control system.
 
 You may wonder: “Doesn’t that mean anyone can change the code?” Yes and no. Collaborative development includes checks and balances. For example, Gibbon uses a process of [code review and testing](https://docs.gibbonedu.org/developers/getting-started/developer-workflow/):
 
@@ -127,13 +127,13 @@ The following infographic offers questions that can help get the gears turning w
 
 ### Is open source the right choice?
 
-It is perfectly valid to consider whether open source is even the right choice for your school. It’s possible that it’s not. Proprietary platforms generally offer a whole suite of hosting and support as a through-train, starting with the first marketing call and all the way through to training and launch-day. 
+It is perfectly valid to consider whether open source is even the right choice for your school. It’s possible that it’s not. Proprietary platforms generally offer a whole suite of hosting and support as a through-train, starting with the first marketing call and all the way to training and launch-day. 
 
 ::: warning NOTE
 If you’re looking for a turn-key solution where everything is managed and handled for your school, then its likely that open source may not be for you. That's okay.
 :::
 
-Open source platforms can offer a lot of the software capabilities as proprietary platforms, but on the organizational side, it’s up to you to setup a plan for implementation and then connect the dots. The freedom that open source offers also means that it doesn’t come with the same scaffolding and structure that paid platforms do. But, that doesn’t mean there isn’t the same capacity for structure: for more information about the support-side of things, keep reading!
+Open source platforms can offer a lot of the software capabilities as proprietary platforms, but on the organizational side, <u>it’s up to you to setup a plan for implementation</u> and then connect the dots. The freedom that open source offers also means that it doesn’t come with the same scaffolding and structure that paid platforms do. But, that doesn’t mean there isn’t the same capacity for structure: for more information about the support-side of things, keep reading!
 
 ### Do I need a programmer on staff?
 

@@ -36,7 +36,7 @@ Now that you have Gibbon installed, it's never too soon to think of your backup 
 For additional security, it's recommended to setup a MySQL user that has the minimum required database privileges. This is a common practice for web-based apps, to ensure that, should the credentials be compromised, the MySQL user cannot escalate their access in the system.
 
 The minimum GRANTS required for Gibbon are: 
-```
+``` sql
 SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, LOCK TABLES
 ```
 
@@ -44,7 +44,7 @@ You can view your current grants with the command:
 `SHOW GRANTS FOR yourusername`
 
 You can reset the grants for a user with the following commands. See the [MySQL docs](https://dev.mysql.com/doc/refman/8.0/en/show-grants.html) for more info.
-```
+``` sql
 REVOKE ALL PRIVILEGES ON *.* FROM 'yourusername'@'%';
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, LOCK TABLES ON `yourdatabase`.* TO 'yourusername'@'%';
 ```

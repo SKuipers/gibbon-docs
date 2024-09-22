@@ -166,13 +166,6 @@
     margin-left: 5px;
 }
 
-.vp-doc .timeline-dot-title em {
-    font-size: 20px;
-    font-weight: 300;
-    color: var(--vp-c-text-3);
-    padding-left: 6px;
-}
-
 .timeline-indicator {
     display: none;
 }
